@@ -11,25 +11,48 @@
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
-## Unofficial CS Career Guide: Student and Early-Career Software Engineering Advice. I chose this domain because this has been one of the main issues I've personally faced throughout my CS career. I lifelessly go through my courses and pass my classes and exams, to wind up realizing I can't really do anything with th knowledge I have on my own sitting in front of my computer. I can't start projects on my own or take any practical steps towards a career in software engineering. None of these things are rarely taught in school, and there is so much to cover that it's hard to find a comprehensive guide to navigate a student throughout the process of building a career in Computer Science. I want to create a resource that compiles all advice and information that students and future software engineers need to know, but not found in any official resource.
+> Unofficial CS Career Guide: Student and Early-Career Software Engineering Advice. I chose this domain because this has been one of the main issues I've personally faced throughout my CS career. I lifelessly go through my courses and pass my classes and exams, to wind up realizing I can't really do anything with th knowledge I have on my own sitting in front of my computer. I can't start projects on my own or take any practical steps towards a career in software engineering. None of these things are rarely taught in school, and there is so much to cover that it's hard to find a comprehensive guide to navigate a student throughout the process of building a career in Computer Science. I want to create a resource that compiles all advice and information that students and future software engineers need to know, but not found in any official resource.
 
 ## Documents
 
 <!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
      Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
 
-| #   | Source | Description | URL or location |
-| --- | ------ | ----------- | --------------- |
-| 1   |        |             |                 |
-| 2   |        |             |                 |
-| 3   |        |             |                 |
-| 4   |        |             |                 |
-| 5   |        |             |                 |
-| 6   |        |             |                 |
-| 7   |        |             |                 |
-| 8   |        |             |                 |
-| 9   |        |             |                 |
-| 10  |        |             |                 |
+> 1. (Discussion) What practical skills college does not teach.
+>    URL: https://www.reddit.com/r/cscareerquestions/comments/1dpg5kv/skills_which_universities_dont_teach_cs_students/
+
+> 2. (Blog) Subjects a CS student must know.
+>    URL: https://softwareengineering.stackexchange.com/questions/32533/cs-subjects-that-an-undergraduate-must-know
+
+> 3. (Blog) Reflections of a CS graduate.
+>    URL: https://www.haightbey.com/reflections-after-graduating-with-a-computer-science-degree/
+
+> 4. (Discussion) Interview preparation advice.
+>    URL: https://www.reddit.com/r/cscareerquestions/comments/1jov24/heres_how_to_prepare_for_tech_interviews/
+
+> 5. (Discussion) Experience needed for 1st internship.
+>    URL: https://www.reddit.com/r/cscareerquestions/comments/5fw1wl/during_college_how_experienced_were_you_when_you/
+
+> 6. (Blog) Reality of working a computer science job.
+>    URL: https://medium.com/writing-340/my-reality-of-landing-a-computer-science-job-75649e6935df
+
+> 7. (Blog) Skills to have before applying to 1st internship.
+>    URL: https://medium.com/writing-340/my-reality-of-landing-a-computer-science-job-75649e6935df
+
+> 8. (Discussion) Projects to have on resume for CS.
+>    URL: https://www.reddit.com/r/learnprogramming/comments/o3hj17/what_software_engineering_projects_should_i_put/
+
+> 9. (Discussion) Personal projects guide for beginners.
+>    URL: https://www.sourish.dev/blog/industry/personal-projects
+
+> 10. (Discussion) How to get started on personal projects for computer science.
+>     URL: https://www.careervillage.org/questions/1014366/how-do-i-get-started-on-personal-computer-science-projects
+
+> 11. (Blog) Side programming projects to have on resume
+>     URL: https://www.indeed.com/career-advice/resumes-cover-letters/programming-side-projects-to-boost-your-resume
+
+> 12. (Blog) The importance of LeetCode and competitive programming.
+>     URL: https://levelup.gitconnected.com/the-importance-of-leetcode-why-should-you-do-it-everyday-bbc5ba467db8
 
 ---
 
