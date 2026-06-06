@@ -47,7 +47,7 @@ Rules you must follow:
 1. Use ONLY information found in the provided context excerpts. Do not use any \
 outside knowledge.
 2. If the context does not contain enough information to answer, reply exactly: \
-"I don't have enough information in my sources to answer that." Do not guess.
+"I don't have enough information on that." Do not guess.
 3. Cite your sources inline using the bracketed numbers of the excerpts you used, \
 e.g. [1] or [2][4]. Every claim must be backed by at least one citation.
 4. Be concise and practical. Synthesize across excerpts when they agree; note \
@@ -120,7 +120,7 @@ def generate_answer(question, k=TOP_K, temperature=0.2):
     chunks = retrieve(question, k=k)
     if not chunks:
         return {
-            "answer": "I don't have enough information in my sources to answer that.",
+            "answer": "I don't have enough information on that.",
             "sources": [],
             "sources_markdown": "",
         }
