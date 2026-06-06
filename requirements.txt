@@ -7,8 +7,8 @@ python-dotenv==1.0.1
 # and crashes with NumPy 2.x. Also keeps Apple Silicon / Linux installs consistent.
 numpy<2
 
-# Query interface — add whichever you use for Milestone 5:
-# gradio>=6.9.0
+# Query interface — Milestone 5:
+gradio>=6.9.0
 # streamlit>=1.40.0
 
 # Document ingestion — add if your documents/ folder contains .pdf files:

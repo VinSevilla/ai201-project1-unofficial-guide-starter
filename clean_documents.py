@@ -66,6 +66,7 @@ CLUTTER_LINES = {
     "old", "q&a", "comments section", "search comments", "expand comment search",
     "add a comment", "more replies", "more replies...", "view replies",
     "promoted", "listen", "·", "•", "—", "level up coding", "follow publication",
+    "codecademy",
     "press enter or click to view image in full size", "sign up", "log in",
     "open in app", "edit", "edited", "deleted", "[deleted]", "[removed]",
     "show more", "see more", "read more", "continue reading", "written by",
@@ -104,6 +105,7 @@ CLUTTER_PATTERNS = [
     re.compile(r"^related:.*$", re.IGNORECASE),            # "Related: ..." link lists
     re.compile(r"^updated\s+[a-z]+\s+\d{1,2},\s+\d{4}$", re.IGNORECASE),  # "Updated December 11, 2025"
     re.compile(r"^closed\s+\d+\s+years?\s+ago\.?$", re.IGNORECASE),       # SE "Closed 11 years ago."
+    re.compile(r"^[\w.-]+\.(com|org|io|net|dev|co|edu|gov)(/\S*)?$", re.IGNORECASE),  # bare promo URL/domain line ("try.codecademy.com")
 ]
 
 # Substring markers: if any appears in a line, drop the whole line. Use for

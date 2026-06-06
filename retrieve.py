@@ -26,6 +26,7 @@ from embed_and_store import (
 )
 
 TOP_K = 5  # how many chunks to retrieve per query (matches the spec)
+PREVIEW_CHARS = 500  # how many characters of each chunk to print when run from the CLI
 
 # Load the model and open the collection once at import time so repeated
 # retrieve() calls don't reload the model or reconnect every time.
@@ -115,11 +116,14 @@ def main():
     print(f"TOP {len(results)} RETRIEVED CHUNKS")
     print("=" * 70)
     for rank, item in enumerate(results, start=1):
-        preview = item["text"][:280].replace("\n", " ")
-        print(f"\n#{rank}  similarity={item['similarity']}  "
-              f"[{item['source_type']}] {item['source_filename']}")
+        text = item["text"].replace("\n", " ")
+        preview = text[:PREVIEW_CHARS]
+        ellipsis = "..." if len(text) > PREVIEW_CHARS else ""
+        distance = round(1 - item["similarity"], 4)
+        print(f"\n#{rank}  similarity={item['similarity']}  distance={distance}  "
+              f"[{item['source_type']}] {item['source_filename']} (chunk {item['chunk_index']})")
         print(f"    title: {item['title']}")
-        print(f"    {preview}...")
+        print(f"    {preview}{ellipsis}")
 
 
 if __name__ == "__main__":
