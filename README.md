@@ -46,13 +46,13 @@
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
      - What your final chunk count was across all documents -->
 
-**Chunk size:**
+**Chunk size:** ~250 tokens
 
-**Overlap:**
+**Overlap:** 50 tokens
 
 **Why these choices fit your documents:**
 
-**Final chunk count:**
+**Final chunk count:** 183 chunks across all 12 documents
 
 ---
 

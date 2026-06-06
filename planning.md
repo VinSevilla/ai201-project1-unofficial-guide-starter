@@ -37,7 +37,7 @@
 >    URL: https://medium.com/writing-340/my-reality-of-landing-a-computer-science-job-75649e6935df
 
 > 7. (Blog) Skills to have before applying to 1st internship.
->    URL: https://medium.com/writing-340/my-reality-of-landing-a-computer-science-job-75649e6935df
+>    URL: https://medium.com/@felixthedev/what-computer-science-students-should-know-before-their-first-internship-2e65293eaf36
 
 > 8. (Discussion) Projects to have on resume for CS.
 >    URL: https://www.reddit.com/r/learnprogramming/comments/o3hj17/what_software_engineering_projects_should_i_put/
@@ -65,9 +65,17 @@
 
 **Chunk size:**
 
-**Overlap:**
+> 250 Tokens
+> **Overlap:**
+> 50 Tokens
+> **Final chunk count:**
+> 183 chunks across all 12 documents.
+> **Reasoning:**
+> I will split my documents into chunks of about 250 tokens with an overlap of about 50 tokens.
 
-**Reasoning:**
+> This chunk size seems reasonable because my documents are mostly Reddit discussions, blog posts, and advice-style pages about practical CS industry skills. These sources are usually made up of short comments, paragraphs, lists, and personal experiences. A 250-token chunk is large enough to keep one full idea together, such as advice about internships, LeetCode, projects, resumes, or skills college does not teach. At the same time, it is not so large that unrelated advice gets mixed into the same chunk.
+
+> I lowered the size from my original 500 tokens to 250 because my embedding model, all-MiniLM-L6-v2, only encodes the first 256 word-piece tokens of an input and silently truncates the rest. Keeping chunks at ~250 words means each chunk fits within that limit, so the whole chunk is actually embedded rather than half of it being dropped.
 
 ---
 
@@ -81,11 +89,11 @@
 
 **Embedding model:**
 
-**Top-k:**
-
-**Production tradeoff reflection:**
-
----
+> I will use all-MiniLM-L6-v2 through the sentence-transformers library as my embedding model.
+> **Top-k:**
+> 5 chunks per query.
+> **Production tradeoff reflection:**
+> If I were deploying this for real users without a cost constraint, I would expect to have one of the most optimized and accurate embedding models available that categorically is the best in every way. I would consider accuracy first, because the system needs to retrieve advice that actually matches questions about internships, interviews, resumes, projects, and practical CS skills. I would also want a longer context length as it can help with large reddit threads and blog post that have a lot of relevant information in them. I would also emphasize low latency so users can have answers as quickly as possible especially since again cost is not a constraint, so who wouldn't want a faster system if they could have it. Finally I would consider multilingual support last because my target demographic is English-speaking CS students. This does not however diminish multilingual supports importance since it could also allow the ai to pull advice from non-English sources which could be very valuable, but I would still prioritize the other factors first.
 
 ## Evaluation Plan
 
@@ -94,13 +102,20 @@
      is right or wrong. "What are good dining halls?" is too vague.
      "What do students say about wait times at [dining hall name] during lunch?" is testable. -->
 
-| #   | Question | Expected answer |
-| --- | -------- | --------------- |
-| 1   |          |                 |
-| 2   |          |                 |
-| 3   |          |                 |
-| 4   |          |                 |
-| 5   |          |                 |
+> Question 1: What practical software engineering skill do many graduates say college does not teach well?
+> Expected answer: Many sources mention that universities focus on theory and programming fundamentals but do not adequately teach real-world software development practices such as Git, code reviews, working in large codebases, team collaboration, and software deployment.
+
+> Question 2: What experience level do students typically report having before obtaining their first software engineering internship?
+> Expected answer: Students typically report having some programming experience, often gained through coursework or personal projects, before obtaining their first software engineering internship.
+
+> Question 3: What types of personal projects are commonly recommended for a computer science resume?
+> Expected answer: Projects that demonstrate practical software development skills are most commonly recommended. Examples include web applications, mobile apps, APIs, full-stack projects, automation tools, and projects that solve real problems rather than simple tutorial projects.
+
+> Question 4: What is a common piece of advice for preparing for technical interviews?
+> Expected answer: A common piece of advice is to practice coding problems regularly on platforms like LetCode, HackerRank, or CodeSignal, and to focus on data structures, algorithms, and problem-solving skills.
+
+> Question 5: How should beginners start personal projects?
+> Expected answer: Students are often advised to start with a small project related to their own interests, focus on building something useful, avoid overly ambitious ideas, and learn new technologies gradually while developing the project.
 
 ---
 
@@ -110,9 +125,9 @@
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. Especially with Reddit discussions, there may be a lot of noise and off-topic information in the documents. This could lead to chunks that contain irrelevant advice or personal anecdotes that do not answer users' questions about internships, projects, resumes, or interview preparation.
 
-2.
+2. A second risk is off-topic retrieval caused by overlapping terminology. Many documents discuss internships, projects, interviews, resumes, and technical skills using similar language. A question about internship preparation could accidentally retrieve chunks about personal projects or LeetCode because they share related keywords.
 
 ---
 
@@ -123,6 +138,8 @@
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+>
 
 ---
 
@@ -137,6 +154,16 @@
      "I'll use AI to help me code" is not a plan.
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
+
+> For document ingestion, I plan to use ChatGPT or Claude to help write the code that loads my collected Reddit discussions, blog posts, and career advice articles into the project. I will give the AI my document list, my domain description, and the requirement that each document should keep its title, URL, source type, and text content. I expect it to produce a function that reads the documents from files or scraped text and stores them in a consistent format. I will verify this by printing the number of loaded documents, checking that all 12 sources appear, and confirming that each document still has its original URL for citation.
+
+> For chunking, I plan to use Claude or ChatGPT to implement a chunk_text() function. I will give it my chunking strategy section, including my chosen chunk size of 500 tokens and overlap of 75 tokens. I expect it to produce code that splits each document into overlapping chunks while preserving metadata such as source title and URL. I will verify this by checking several chunks manually to make sure they are not empty, not too large, and still contain enough context to understand the advice.
+
+> For embedding and vector storage, I plan to use AI assistance to connect sentence-transformers with ChromaDB. I will give it my architecture diagram, the recommended stack, and my chosen embedding model, all-MiniLM-L6-v2. I expect it to produce code that embeds each chunk and saves the embeddings into a ChromaDB collection. I will verify this by checking that the collection contains the same number of items as my chunk list and by running a simple test query to confirm that similar chunks are returned.
+
+> For retrieval, I plan to ask ChatGPT or Claude to implement a retrieval function using ChromaDB similarity search. I will give it my retrieval specification that says the system should return the top 5 chunks for each user query. I expect it to produce a function that accepts a natural-language question and returns the five most relevant chunks with their titles and URLs. I will verify this by running my five test questions and checking whether the retrieved chunks come from the expected supporting documents.
+
+> For generation, I plan to use AI assistance to write the prompt that sends the user question and retrieved chunks to Groq using llama-3.3-70b-versatile. I will give the AI my evaluation questions, expected answers, and the requirement that generated answers must be grounded in retrieved sources. I expect it to produce a generation function that answers the question using only the retrieved context and includes source citations. I will verify this by comparing the output against my expected answers and checking that every major claim is supported by a retrieved chunk.
 
 **Milestone 3 — Ingestion and chunking:**
 
