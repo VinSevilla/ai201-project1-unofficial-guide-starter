@@ -1,0 +1,151 @@
+<!--
+
+# TITLE: Skills which universities don't teach CS students but are essential for employment prospect.
+
+# URL: https://www.indeed.com/career-advice/resumes-cover-letters/programming-side-projects-to-boost-your-resume
+
+-->
+
+14 Programming Side Projects To Boost Your Resume (With Examples)
+Written by
+Updated December 11, 2025
+
+As a programmer, creating programming side projects can help develop and improve your abilities. You can also enhance your resume since they show a wide variety of skills and independence. If you're interested in becoming a programmer, then you might work on creative activities to show to future employers. In this article, we define programming side projects and provide a list of 14 programming side projects that can help boost your resume.
+Pro Tip: You can use Indeed Career Scout as your personal AI career coach to streamline every step of your search, from finding jobs and tailoring resumes to acing interviews and landing an offer.
+Your personal AI career coach is on the app
+Find and apply to jobs 7x faster with Career Scout, only available on the app
+Source: Indeed Data, US, based on median, compared to job seekers who use mobile app
+What are programming side projects?
+Programming side projects are apps, websites or engines that you create by yourself and on your own time. These programs typically show off your skills as a programmer, which can help make you a more qualified job candidate. Programming side projects can be programs that are specific to the industry you want to enter. For example, if you want to go into the education industry, then you might build educational programs.
+Consider making your side projects relevant, realistic and complete before putting them on your resume. For example, it's typically more impressive to create a program that's new and solves a current issue. Having a finished project can show potential employers that you're capable of finishing a task.
+Read more: How To Write an Entry-Level Programmer Resume (Samples and Tips)
+Search jobs and companies hiring now
+Job title, keywords or company
+Location
+ 
+14 programming side projects to boost your resume
+Here is a list of 14 programming side projects you can make to help strengthen your resume:
+1. Gaming app
+Gaming apps can emphasize your skills as a programmer because there are many aspects involved in designing a game. You can first learn how to program a simple gaming app, which can show you have general programming skills with data structures and algorithms. Then, you can build onto the app by adding new features. Here's an example of how to communicate the project on your resume:
+Incorporated algorithm and data structures into a game for mobile apps
+Implemented 10 levels that enabled users to win prizes
+Added customization features for the users' characters
+2. Portfolio website
+You can make a website to host a portfolio. This can be a portfolio of your own work to show employers your professional experience. Creating a portfolio website demonstrates you can program a basic website using site-building coding languages. Consider customizing the colors and layout to add a personal flair. Here's an example of how to communicate the project on your resume:
+Designed an online album that shows screen captures of built programs
+Included a description of each programs' purpose and features
+Added a submission field for people to submit inquiries
+Read more: How To Become a Computer Programmer
+3. Blog
+A blog can also prove that you can create a basic website, and you can make it even more impressive by writing posts about programming skills or projects. To make your blog unique, consider adding special features, such as social media feeds, videos or calendars. Try experimenting with the design of the blog so that it's dynamic and interesting. Here's an example of how to communicate the project on your resume:
+Coded a blog that contains posts relating to programming skills
+Wrote an article titled "Skills for a Beginner Programmer" that garnered 100 shares
+Programmed widgets for readers to share blog posts or leave comments
+4. Weather app
+Use an application programming interface (API) to develop a weather app. This can show that you know how to use API to access weather data to create a forecast, including temperature, humidity or precipitation. To differentiate your weather app from current ones, you can add expansions, such as notifying the user of inclement weather. Here's an example of how to communicate the project on your resume:
+Developed a weather app that tracks the user's location
+Included a feature that updates the user on weather changes as they travel
+Programmed the app to vibrate when there's a flash flood or tornado warning
+5. To-do app
+A to-do app allows the user to make lists of items that they can check to increase task management and organization. You can create a to-do app with user interface (UI), which is how the user interacts with the app or screen. To-do apps need to be organized and user-friendly, so creating one can demonstrate your ability to make an efficient program that's easy to navigate. Here's an example of how to communicate the project on your resume:
+Programmed a to-do app that allows users to make lists
+Added a function that allows users to cross items off their list
+Included an organization feature so users can search for and filter their lists
+6. Messaging app
+The creation of a messaging app can highlight your ability to make a program that transfers data instantly from one device to another. Messaging apps also require API, which can further show that you have that skill. Make your messaging app distinct by adding unique or new components, such as the ability to send money electronically or play games. Here's an example of how to communicate the project on your resume:
+Programmed a messaging app for phones and mobile devices
+Included a feature that allows users to upload pictures of themselves
+Added a function that lets users attach emoticons and images to their messages
+7. Social media app
+Building a new social media app can be an impressive accomplishment because these apps usually have a lot of features. Social media apps are typically popular, so you might publish this app and gain a following, which would look impressive on a resume. Here's an example of how to communicate the project on your resume:
+Coded a social media app for users to share videos
+Created a feature that allows users to publish videos longer than three minutes
+Added filters and clip art for users to add to their videos before posting
+8. Food tracker
+Food trackers are popular apps for weight management. You can simply create a log submission format where users submit the foods they've eaten that day. This program shows employers that you can create an organized database. For example, if a user wants to search meals with vegetables, they can type the keywords into the search engine and yield relevant results. Here's an example of how to communicate the project on your resume:
+Developed a food tracker program for users to track their food intake
+Implemented a submission filter and search engine
+Coded a calculator to add nutritional values of submitted foods
+Related: How To List Projects on Your Resume
+9. Transportation app
+You can develop a transportation app for multiple different needs, such as accessing a map, using a direction guide or finding public transportation. You can also make separate apps for each of these needs or one app that encompasses all of them. Be innovative when creating this app to make it original and relevant compared to other transportation apps. For instance, the app can alert users when traffic emerges in certain areas or it can include an updated schedule of bus and subway routes. Here's an example of how to communicate the project on your resume:
+Programmed a transportation app that allows users to access maps
+Included a guide feature that gives users directions
+Added a function that alerts users of traffic
+10. Retail app
+A retail app can show employers you can make a multi-faceted program for people to buy and sell items. This would require a search engine, a way to post items for sale and a feature to purchase items. Developing a retail app allows you to use web developmental skills and basic programming skills, such as coding languages.
+An example of a retail app may have components for sellers to describe the item and answer customer questions, as well as customers leaving reviews of the products they purchased. With the search engine, users may also be able to filter they want to purchase by categories, such as size, color and texture. Here's an example of how to communicate the project on your resume:
+Created an app that lets users buy and sell items
+Implemented a submission field for users to submit questions to the seller
+Programmed a search engine for users to find certain items
+11. Recommendation engine
+A recommendation engine uses artificial intelligence (AI) to predict or suggest content to the user. You can be creative when making this program by picking out interesting content. For example, you can make a movie, book or video game recommendation engine to suggest an item based on the user's preferences. Here's an example of how to communicate the project on your resume:
+Coded a recommendation app that suggests books to the users
+Added a questionnaire for users to insert their book preferences
+Linked the results to sites where users can purchase the suggested books
+12. Payment app
+You could create a payment app that tracks finances and allows users to send money to each other. There are many ways that you could make a payment app, but it typically requires a database and API. An efficient payment app can be impressive on a resume because it connects multiple people's bank accounts and tracks how and where they send their money. Here's an example of how to communicate the project on your resume:
+Developed a payment app that allows users to send and request money from other users
+Added a feature that tracks users' finances
+Created a function that allows users to save contacts for future uses
+Related: How To List Programming Skills on a Resume
+13. Education app
+Education apps or programs can encompass a variety of content, such as educational videos, practice quizzes or flashcards. The type of program you develop depends on the content. For example, if you want to make an online study resource, then you may just need to create a website. If you want to make a program for quizzes, then you can design an app where users submit their answers to questions. Here's an example of how to communicate the project on your resume:
+Programmed a quiz app that allows users to create quizzes
+Created a search engine for users to find others' quizzes
+Added an analysis feature for users to track their results
+14. Copycat app
+A copycat app refers to recreating an app that someone else already made. The point of this is to show that you can emulate an app or program. This is especially impressive if the app is complex or takes advanced skills. If you make a copycat app, make sure that you credit the original programmer. You can also make it clear on your resume that the app is a replication to recognize the source of your work. Here's an example of how to communicate the project on your resume:
+Created a copycat app of a popular social media platform
+Added new features, such as sharing photos and searching for posts
+Implemented a filter for the app's search engine
+Top 5 highly rated software companies to work for
+(Based on employee reviews on Indeed)
+ADP
+Q: What do employees say about working at ADP?
+
+A: ADP is recognized by Indeed users for their inclusive work environment, feeling of personal appreciation and ability to learn new things
+
+TEKsystems
+Q: What do employees say about working at TEKsystems?
+
+A: TEKsystems is recognized by Indeed users for their clear sense of purpose, ability to meet personal goals and ability to learn new things
+
+IBM
+Q: What do employees say about working at IBM?
+
+A: IBM is recognized by Indeed users for their feeling of personal appreciation, time and location flexibility and ability to learn new things
+
+Appen
+Q: What do employees say about working at Appen?
+
+A: Appen is recognized by Indeed users for their inclusive work environment, ability to meet personal goals and time and location flexibility
+
+Capgemini
+Q: What do employees say about working at Capgemini?
+
+A: Capgemini is recognized by Indeed users for their clear sense of purpose, time and location flexibility and ability to learn new things
+
+Generated by AI and may contain mistakes.
+&nbsp;
+The information on this site is provided as a courtesy and for informational purposes only. Indeed is not a career or legal advisor and does not guarantee job interviews or offers.
+Resumes & cover letters14 Programming Side Projects To Boost Your Resume (With Examples)
+&nbsp;
+Share:
+Related Articles
+slide 1 of 12
+slide1 of 12
+slide2 of 12
+slide3 of 12
+slide4 of 12
+slide5 of 12
+slide6 of 12
+slide7 of 12
+slide8 of 12
+slide9 of 12
+slide10 of 12
+slide11 of 12
+slide12 of 12
+1 / 12
+1 / 12
+Explore more articles

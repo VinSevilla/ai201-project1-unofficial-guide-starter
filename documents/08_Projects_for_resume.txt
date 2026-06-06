@@ -1,0 +1,681 @@
+<!--
+
+# TITLE: What software engineering projects should I put on resume?
+
+# URL: https://www.reddit.com/r/learnprogramming/comments/o3hj17/what_software_engineering_projects_should_i_put/
+
+-->
+
+What software engineering projects should I put on resume?
+Project Ideas
+I'm looking for ideas to create some interesting and advance programming projects for fun and to put on my resume.
+
+Archived post. New comments cannot be posted and votes cannot be cast.
+
+Upvote
+528
+
+Downvote
+
+80
+Go to comments
+
+
+u/adobe avatar
+adobe
+•
+Promoted
+
+Explore quick new ways to create custom scenes, make complex edits, & combine images online or with the free Photoshop mobile app.
+Learn More
+adobe.com
+Thumbnail image: Explore quick new ways to create custom scenes, make complex edits, & combine images online or with the free Photoshop mobile app.
+Sort by:
+
+Best
+
+Search Comments
+Expand comment search
+Comments Section
+LifeNavigator
+•
+5y ago
+List of projects to do by language
+
+
+
+Upvote
+100
+
+Downvote
+
+Resource_account
+•
+5y ago
+That C# section is small
+
+
+
+Upvote
+8
+
+Downvote
+
+u/Toytles avatar
+Toytles
+•
+5y ago
+That’s cuz the only C worth coding in is HolyC, God’s programming language.
+
+
+
+Upvote
+49
+
+Downvote
+
+Pr0gr4mm3r-42069
+•
+5y ago
+Amen
+
+LifeNavigator
+•
+5y ago
+I see this more as a starting point for some ideas, since OP didn't mention what language they wish to use specifically. A lot of projects listed for other languages you can code in C# too.
+
+u/eredditan avatar
+eredditan
+•
+5y ago
+Work on something you like that has some theory in it which later you can explain in the interview and show you know stuff.
+
+For example : I built couple of services in my house, all had to talk to know each other and using a secure methods. So after finishing the services, I programmed a discovery service on my own with multicast and sort of ssl.
+
+Had a lot of fun to talk about it in the interviews and explain how it all works.
+
+
+mr_poopybuthole69
+•
+5y ago
+What kind of services?
+
+
+ubsr1024
+•
+5y ago
+you know... services.
+
+u/eredditan avatar
+eredditan
+•
+5y ago
+I wrote a server and clients for a camera system in my home so I can watch multiple cameras live on a website. I didn't want anyone to see it besides me so I made it more secure.
+
+I had multiple cameras connected to the server and a monitoring service. All of them contacted the discovery service first before doing their job.
+
+This project taught me a lot - TCP, UDP , secure connections using sockets in different languages, using libraries like OpenCV, understand how multicast and websockets work.
+
+It doesn't work as I wanted (frames mostly lag) but I could talk about it for few mins
+
+
+frankenmint
+•
+5y ago
+wow that sounds like a lot of fun to try building in my own spare time! You said multicast and I wasnt sure if you meant streaming broadcasts to multiple tvs or to take multiple feeds into a single route (like you're doing). Did you build other features like rotating dvr? Is this open source by chance? What would you have said was your timeline for this? A weekend or more like three months of weekends?
+
+
+u/eredditan avatar
+eredditan
+•
+5y ago
+Yes it was fun a bit too much for a project in my opinion but I had time in the covid after graduating so I worked on it everyday for 2-3 weeks.
+
+I used this time to learn C++ and golang, languages I didn't know or I never was good at.
+
+As a programmer today my job requires much less coding time than this project.
+
+
+My code is unfortunately not open source and I would just buy a Camera today but it was fun understanding how it all works and do it by myself.
+
+
+You said multicast and I wasnt sure if you meant streaming broadcasts to multiple tvs or to take multiple feeds into a single route (like you're doing)
+
+Multicast was used to find the server at first. I didn't want to have many configuration files and thought that devices should just listen to a service that spams multicast securly before they begin then decrypt it and know the IP of the discovery service. In reality companies uses configuration files
+
+I worked on passing the frames through UDP (like they teach you in the university that UDP is for streaming) but actually use a UDP requires programming logic to avoid fragmentation and lost packets and it was too much for me - so I used TCP it worked with 3 devices and I was happy :D
+
+
+Did you build other features like rotating dvr?
+
+I Wrote the client cameras interface in C++ and thought about using arduino there to rotate the camera left and right. I had functions like TurnRight() but it was empty and just for a future need.
+
+Didn't know rotating dvr existed. thanks for showing me :)
+
+u/stoph_link avatar
+stoph_link
+•
+5y ago
+This sounds cool! I am interested to know what kinds of services. It sounds like something I might want to try. Do you have a github link to some of them?
+
+Edit, I just refreshed and saw your response to someone else asking the same thing. That's awesome! Thanks for the info!
+
+u/Your__Butthole avatar
+Your__Butthole
+•
+5y ago
+I built a web based nes emulator and im working on ones for snes and n64. They seem to generate a fair amount of interest. In fact, Boston Dynamics reached out to me for an interview citing that particular project. I didnt get the job but that would have been really cool.
+
+
+[deleted]
+•
+5y ago
+Darn even my butthole is a better programmer than me
+
+
+QuincyQueue
+•
+5y ago
+Well it actually gives a shit.
+
+
+[deleted]
+•
+5y ago
+I hate(love) both of you
+
+Legote
+•
+5y ago
+You can clone a popular website like Netflix, Amazon, Facebook to get past the HR wall. They see that you can build a website that generates billions and move you on to a hiring manager more technical.
+
+Then you can build stuff you like.
+
+
+Ionized97
+•
+5y ago
+Legit question. Is this a good way of proving that one is worthy of working for a company? I mean there are a lot of tutorials that offer exactly what you are saying (for example twitter clones, netflix clones as you stated etc). This is actually a question I ask myself. Again, no intention on disproving what you are saying. Just trying to figure out if it is a good tactic.
+
+EDIT: grammatical corrections
+
+
+u/jscott701 avatar
+jscott701
+•
+5y ago
+In many of my interviews for intern positions, the interviewers pointed out how nice it was to see something unique instead the 50th Reddit clone that week. Just my experience though
+
+code_matter
+•
+5y ago
+Personally, i don't like building clones because it doesn't make you stand out. There's tons and tons of tutorial online for exactly that. Does it show you understand? No, it shows you can follow a tutorial.
+
+What I would do is maybe build a clone if you want to understand how things work, but make something NEW for your portfolio. For instance, make a Netflix clone to understand how data fetching works, backend and front end.
+
+But build something new from what you learned. And showcase THAT project. If you are out of ideas , a quick google search with "app ideas" or "website ideas" could be a good start:)
+
+
+Ionized97
+•
+5y ago
+Seems like a good tactic actually.
+
+davidtyburek
+•
+5y ago
+Yeah, I have seen some of those clone tutorials. From the code perspective, most of what I’ve seen are just coded in a most bizarre way. Just to clone it as is, using all of the anti patterns just to produce a tutorial that looks like Amazon or Twitter. Talking about calculating cart value from products price in adapter list(android) in a fragment, or checking if a user is logged in by checking if the span containing users email is not empty. Sure, probably there are lots of good ones but that’s what I have seen on yt.
+
+
+code_matter
+•
+5y ago
+Wow that was exactly my point! Im not good enough to understand why these tutorials are wrong but to me, they always felt "weirdly coded" projects..
+
+
+davidtyburek
+•
+5y ago
+True, they always seem a bit off and hm “optimistic”, just show you the code you need to write to display similar UI to the “big ones”. Does it work? Yes, should you do it like this? Hell no.
+
+I mean, I love to follow quality tutorials or youtubers because you can get a general knowledge of how to do something or how real deva do it. Basing your knowledge of those free yt clone tuts you are able to make something that looks and sorta behaves like other apps but in the long run you have no transferable knowledge from them.
+
+When I learn I like to look for something that will give me tools and understanding, not a direct solution, if you are after specific solution then you will be able to do exactly just that, I.e when you’d like to do the same but with a different api or hi change, you will have no clue what is actually needed for the project or how any of this code works.
+
+u/MrAwesume avatar
+MrAwesume
+•
+5y ago
+I'm kinda new to android. But I have a project with a cart function. They way I calculate total cart value (and display it) is to have my viewmodel make a call to a class responsible for calculating price, everytime an item is added to the cart, this total is then set in the viewmodel as a mutablelivedata object, which is observed by my fragment. Is this reasonable?
+
+
+davidtyburek
+•
+5y ago
+Yep, seems reasonable, nice that you are keeping mappers in separate classes. I suggest exposing data to views using data binding or view binding but you are probably doing this already. What is crucial, how do you handle when all cart items are removed? SwitchMap will not be executed, liveData observer will not get called as liveData is empty etc Personally I use a sealed class and emit cart state from the repo which viewModel handles and presents data to the view using dataBinding(fragment class is almost empty).
+
+
+u/MrAwesume avatar
+MrAwesume
+•
+5y ago
+I do use view binding, but not data binding. Although I've heard of its benefits, just havnt gotten around to digging deep in that.
+
+Handling a cart clear is done in a pretty simple way. I just set the MutableLiveData<Cart> with an entirely new cart.
+
+This is probably not the best way of doing it, but since my cart is a very simple class with no information other than what it contains, it works. Also I'm doing it in java(schools preferred language), so no features such as sealed classes.
+
+EIGRP_OH
+•
+5y ago
+What I think would be even better is if you did the clone then extended some features in it. That says “I know how this clone works so well I can implement features on top of it” which is probably a lot of what you’d be doing at the job
+
+
+Ionized97
+•
+5y ago
+Win-win. Understand the way things work and showing that you can take the project a step further. Nice!
+
+u/clay_maker avatar
+clay_maker
+•
+5y ago
+Being able to follow a tutorial is easy and anyone can do it. So building a clone website isn’t much. But being able to explain what is happening behind the curtain is what I think would help for the next steps.
+
+Note: I’m very new to programming and self teaching myself, but this is just my thought.
+
+
+u/Cas_Rs avatar
+Cas_Rs
+•
+5y ago
+Agreed to some extent, but just having _any_ completed projects on your resume is better than having none. You don't learn programming from not doing projects or even following tutorials, so it's good to show dedication to complete a project and have it be resume quality code.
+
+Ionized97
+•
+5y ago
+Didn't think of it from this perspective. Nice!
+
+u/twhmike avatar
+twhmike
+•
+5y ago
+It’d be pretty obvious if you just followed a tutorial. Usually they’re quite skin deep just cloning the css, with maybe some basic script that serves only to give the appearance of functionality.
+
+If you’re cloning a website or app, try to at least create a live functional demo of it using some of the actual frameworks, backend, packages (or similar popular alternatives) that was used for your reference. Familiarity with commonly used stacks and design patterns is way more valuable than a simple recreation of the look.
+
+caughtupstream299792
+•
+5y ago
+At the very least, I think building clones is a great way to practice. You can also add your own ideas in too to make it somewhat unique. But I don't think clones particular mean much to a company. They certainly do show your frontend skills though
+
+VanillaVolnutt
+•
+5y ago
+How far should the cloning go on something like this? Just an interactive front end or should we be pulling images and descriptions from a DB (maybe manually insert 20-30 films/shows worth of data?)
+
+The more the merrier?
+
+
+u/MachineCogito avatar
+MachineCogito
+•
+5y ago
+Here's a quick demo of a twitter clone I just finished yesterday.
+
+https://imgur.com/a/y18f7eZ
+
+
+[deleted]
+•
+5y ago
+Comment deleted by user
+
+
+u/MachineCogito avatar
+MachineCogito
+•
+5y ago
+Thanks, it was my final assignment for The Odin Project. Would highly recommend it to anyone interested in learning web development.
+
+u/aloisdg avatar
+aloisdg
+•
+5y ago
+Instead of cloning a popular website, why not contributing this time and efforts to an open source project? Pick a tool, a library or a website you use. I am sure that they have a dozen of issue you can tackle. Help by doing real work for real people.
+
+
+Legote
+•
+5y ago
+•
+Edited 5y ago
+Open source and hackathons are other options. I’m just responding to OP’s recommendations on what projects to put on their resume.
+
+And for a lot of companies, in order to get past HR, who know nothing about tech, just having a website look pretty can move you on to the second round.
+
+u/gameoftomes avatar
+gameoftomes
+•
+5y ago
+The interesting thing with these popular sites isn't the site or components. It's the scale that makes things tricky.
+
+u/shopify avatar
+u/shopify
+•
+Promoted
+
+Build your online store and start selling today. No tech skills needed.
+Sign Up
+shopify.com
+Clickable image which will reveal the video player: Build your online store and start selling today. No tech skills needed.
+Collapse video player
+
+0:00 / 0:00
+
+
+
+
+ivannovick
+•
+5y ago
+Just develope something you need or could help others, Ex, a years ago I didnt have deezer, so I downloaded music by those pages that you paste a youtube link and then the page converts to .mp3, so I writed a Java programn that does that for me
+
+
+u/radgepack avatar
+radgepack
+•
+5y ago
+That sounds really nice actually! I'm kind of fed up with Spotify and similar options but downloading mp3s manually is such a hassle. Don't know why I didn't think of finding a way to automate that
+
+u/tekkub avatar
+tekkub
+•
+5y ago
+If you play video games, write mods for them. Simple little things to make your life easier. You will learn a ton and come out if it with a bunch of code that shows how YOU solve problems. It might sound dumb to you, but any code that you can show an employer is helpful because a lot of the code you will write will be private and not belong to you.
+
+[deleted]
+•
+5y ago
+•
+Edited 5y ago
+some of my best projects are just board games.
+
+but I adapted some algorithms I studied in a donald knuth textbook to make potentially the most performant known versions of some of the games.
+
+for example I made deep sea diver, except I made the player order with a circular linked list and the board with a doubly linked list. each node in the board and each player would keep a two way reference to each other and I used the algorithm informally known as "dancing links" to remove enemy players from the board with each move in order to achieve the "jumping" mechanic.
+
+it's not much but I was able to formally prove my method was more performant than implementing the board with an array in all scenarios.
+
+this is because there are at most 6 players and at most 6 potential "jumps" with no additional checks so every single move has a maximum time complexity of O(18) if you build the game the way I explained.
+
+exercises like that have served me very well and they make for excellent shop talk in interviews.
+
+in a similar boat, I made Japanese GO in the browser and I implemented an adaption of the best-known end game scoring algorithm in existence (it's important to note that an end scoring algorithm with zero error rate still doesn't exist)
+
+I think if you really dive deep into something specific you will learn that everything ever built is incomplete and there is infinite potential for improvement and also for proving you've helped it along a little bit.
+
+u/elus avatar
+elus
+•
+5y ago
+Choose a project where you understand the requirements. This will allow you to demonstrate your technical skill as well as your ability to solve problems in a specific domain. Your choice should be informed by your own personal preferences, your work history, hobbies, etc.
+
+[deleted]
+•
+5y ago
+This is going to be oddly specific. lol. Maybe you could build an aws serverless lambda project with node js that made it so that you could sync the data between two different trello cards on two different boards.
+
+
+That_0ne_again
+•
+5y ago
+Sounds like you're hiring :P
+
+[deleted]
+•
+5y ago
+Can you tell how can one try to do this?
+
+
+[deleted]
+•
+5y ago
+•
+Edited 5y ago
+If I were to do it, I would use the serverless framework: https://www.serverless.com/
+
+The serverless framework is a really handy way to make aws lambda functions. I personally would use node js with it. I'd just follow some of the examples serverless has on their website. You'll need to set up an aws account and probably set up the aws command line tools on your computer.
+
+I would also consult the trello REST API docs: https://developer.atlassian.com/cloud/trello/rest/api-group-actions/
+
+You'll definitely want to use webhooks for part of it: https://developer.atlassian.com/cloud/trello/rest/api-group-webhooks/
+
+I like to use vscode as my editor. Postman would be a useful tool for testing API stuff.
+
+Other than that, I mean you'd want to generate an API key and token for trello: https://trello.com/app-key
+
+Honestly, if you did a project like this successfully and could show your work, a lot of people would be willing to hire you. It's not as easy as it sounds. I mean if you did a really good job. Like you made it so that a trello card could live on multiple boards and all of the data on it would sync between those boards such as checklists and comments and everything. You would be demonstrating that you have some pretty decent skills. Maybe the most important skill to have as a software dev is the ability to figure things out without someone guiding you the whole time. You can kind of figure things out on your own as well as piece together knowledge from various sources and tutorials until you arrive at a pretty good understanding.
+
+A big part of work in the real world is that you have to figure out a lot of things by yourself. You'll have to struggle through it and learn a bunch of stuff on your own and keep trying different things as you slowly move towards your goal. Most of the time tutorials will only give you pieces of the picture. Most of the time there will be multiple ways to accomplish something and you kind of get to choose how you want to approach it. You won't always make the perfectly optimal choice and that's fine. We learn through "failure". It isn't really failure though. If you were asking a kid who is learning to walk if they failed because they fell down like 400 times while learning how to walk, they wouldn't even know what you mean. They just get back up and keep going.
+
+When you get tired learn to rest not quit. I often "quit" for the day. I'm like this is stupid and I'm quitting. Then I "quit" for the day or the weekend and pick it up tomorrow or on monday or whatever.
+
+
+[deleted]
+•
+5y ago
+Wow thanks a lot..
+
+Kavinci
+•
+5y ago
+It really depends on what kind of developer you want to be. The consensus though is recreating something that exists from scratch in your own way. For example, I am a backend engineer so my portfolio has a few recreations of protocols, CRUD API, etc. If you want to be a frontend person, recreate some UIs you gind interesting or cool. For fullstack probably do an API + UI. Feel free to write it your own way and put a part of yourself into it.
+
+[deleted]
+•
+5y ago
+crud apps.
+
+
+IlliterateJedi
+•
+5y ago
+Most of my apps are pretty cruddy :(
+
+u/MuslinBagger avatar
+MuslinBagger
+•
+5y ago
+But with panache.
+
+
+[deleted]
+•
+5y ago
+Ya I'd recommend using a popular front end framework like angular, react, or vue. And a popular styling framework like material or bootstrap. Bonus points if you use something like material-ui :p even if you don't want to be a front end dev, I would imagine a good front end will set you apart
+
+
+Powered-by-Din
+•
+5y ago
+I wish there was a fad for retro styled websites, my css would actually look good then
+
+
+[deleted]
+•
+5y ago
+Heheh yeah, I miss the days on myspace playing around with CSS :D. I only suggested those things because they're commonly used, and if a company that uses one of them sees that you are familiar, it could favor you over others. BUT I could see a time where showing off your knowledge of css (and vanilla js too) could show that you are strong in your fundamentals, and that you are flexible.
+
+[deleted]
+•
+5y ago
+this. Make it feature rich so it doesn't look like a tutorial app.
+
+AmatureProgrammer
+•
+5y ago
+What do you mean by panache?
+
+
+[deleted]
+•
+5y ago
+Add styling + a couple features you would personally like to see in the app. CRUD is just create, read, update, delete — you can add so much more functionality to an app like that.
+
+u/MuslinBagger avatar
+MuslinBagger
+•
+5y ago
+Something that shows creativity. For example, it should be something you personally need and use so in the interview you can talk about how you identified a need/problem you faced (ie identified a problem statement and collected requirements) and how your software solves it (ie fulfilled requirements using code). Thus demonstrating both your coding and soft skills.
+
+u/coursera avatar
+u/coursera
+•
+Promoted
+
+Learn foundational software development skills with Amazon.
+Learn More
+coursera.org
+Thumbnail image: Learn foundational software development skills with Amazon.
+[deleted]
+•
+5y ago
+Have you thought of building a personal website? One to host your resume and projects and whatever else you want? That's what I plan on doing at some point.
+
+
+[deleted]
+•
+5y ago
+This is underrated comment, a pretty neat idea.
+
+SweetOnionTea
+•
+5y ago
+What is your current experience level and what kind of position are you going for?
+
+Special_Rice9539
+•
+5y ago
+Trying to solve some local business problem with technology is a cool thing if you can. Shows the employers that you’re thinking about applicability. Like I built a program to help search through multiple catalogs for different bike parts and list their id’s and prices, saving my local bike shop time with their orders.
+
+Or at my current job, I made a program that searches a spreadsheet of files and checks if those files have been backed up in an archive server, because before someone had to look up each file individually.
+
+Maybe a local business needs a new website, or your friend wants to create an online game. Anything where you have to collect requirements from a client and work with them to solve their problem. Don’t worry if it seems small and stupid, the momentum builds up and you start doing bigger things over time.
+
+quan194
+•
+5y ago
+One that's not too basic and you can explain it well
+
+No-Fish9557
+•
+5y ago
+It depends on what you specialize. As a "software engineer" per se it simply means that you must be good at coding. You probably want something that makes you stand out from your competition. Showing that you have a deep knowledge in data structures and algorithms and also that you've "mastered" the programming language that you are using. There are many quick projects that you can do in a relatively short time and are 100% resume worthy. You could start with a backtracking sudoku solver. Make sure you use tools specific to your programming language. And the clearer/ easier to explain the better.
+
+But like I said before, it depends. If you are a webdev, showing how you cloned a website, or showcasing websites that you've made will probably tell more to whoever is hiring you than what I said first.
+
+u/149244179 avatar
+149244179
+•
+5y ago
+https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_where_can_i_find_practice_exercises_and_project_ideas.3F
+
+CodingDrive
+•
+5y ago
+Do something unique but make sure it’s something a company would be interested in so nothing like a Pokémon website
+
+u/userxbw avatar
+userxbw
+•
+5y ago
+Tell them you invented the internet.
+
+Just kidding of course.
+
+
+[deleted]
+•
+5y ago
+I don’t think this should have been downvoted that much. Silly jokes are okay.
+
+
+u/userxbw avatar
+userxbw
+•
+5y ago
+Oh man that's going to cost me 3 to 4 hours of therapy. 😳🤪
+
+Wkais
+•
+5y ago
+•
+Edited 5y ago
+Always clone all projects you work on in your professional life onto a USB or cloud storage or personal github so you can show future employers work you have done previously.
+
+The biggest mistake you can make is not having your previous employer's codebases backed up on your own personal devices/accounts for when it comes to finding a new job. You HAVE to be able to show employers that you know what you're doing.
+
+
+
+Upvote
+-4
+
+Downvote
+
+redoleddit
+•
+5y ago
+•
+Edited 3y ago
+I altered the deal, pray that I don't alter it any further
+
+
+
+Upvote
+10
+
+Downvote
+
+whatiseverythinghelp
+•
+5y ago
+I'm still an entry-level dev so I'm unsure about this actually—how we go about showing our previous work if they are all IP?
+
+
+Upvote
+2
+
+Downvote
+
+[deleted]
+•
+5y ago
+You can try to make a personal website with Node.js. You can learn Javascript, React Native, CSS and HTML in the process of that. During interviews, you can pull it up or talk about the process.
+
+
+Upvote
+1
+
+Downvote
+
+u/BossHogg86 avatar
+BossHogg86
+•
+5y ago
+Next.js blog with headless CMS
+
+
+Upvote
+1
+
+Downvote
+
+Paddyhallek
+•
+5y ago
+The project that worked out the best for me was not the most complex, but the most useful and probpem solving one. I built multiple differnet projects in order to land my first job, but recruiter and also interviewer does not seem to care that much about the technical side of my projects but more about the intention in order to find out, if I am passionated about what I do.
+
+I built an automated irrigation system with a mobile app/website for calibrations and monitoring. Since many interviewers had also a personal interest in gardening it was a perfect project to break the ice and showing my passion about what I do.
+
+I would suggest you to find a problem you want to solve (it is ok if somebody already solved it before) and do a project you really care and like. Of course you do not reinvent the wheel.

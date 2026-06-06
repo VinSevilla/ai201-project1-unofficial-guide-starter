@@ -1,0 +1,21 @@
+<!--
+
+# TITLE: Reflections After Graduating with a Computer Science degree
+
+# URL: https://www.haightbey.com/reflections-after-graduating-with-a-computer-science-degree/
+
+-->
+
+Reflections After Graduating with a Computer Science degree
+man in graduation cap
+Author: Jim Lee
+
+Date: 11 July 2018
+
+After four grueling years, spending countless hours on programming assignments and projects, I’m humbled to say that I’ve completed UC San Diego’s computer science undergraduate program (B.S.). I’d like to thank my family, friends, and colleagues within the computer science and engineering department for helping me get to where I am today. Their words of encouragement and motivation inspired me to persevere through difficult periods when I simply wanted to give up and quit the program. I want to share some pieces of advice to students who are about to enter college or are in progress with their college career already.
+
+Learning to cope with failure is one the most important lessons I learned as a computer science student. Whether it be failing to complete a difficult programming assignment or failing a final exam, I’m not afraid to admit that I’ve had my fair share of academic failures during my four-year career. For those who have had smooth academic careers before college, failure at the college level can feel like a dagger piercing through your pride and self-esteem. Please, don’t make this mistake of letting failure overwhelm you emotionally. Instead, utilize failure as an opportunity to improve yourself. A colleague of mine who is a computer engineering graduate shared this quote on his Facebook timeline, which greatly resonated with me: “Failure is the greatest teacher you can ever know. Use it, learn from it, conquer it”. It is easy to forget that many of our classmates also struggle throughout their college careers. For many students, failure is unexpected but still occurs nonetheless. Guess what, that’s perfectly okay. Failure is often inevitable and thus, can be used as an extremely valuable tool for self-growth. Not every college student will have a perfect academic career without experiencing failure at least once.
+
+Another challenge I faced as a computer science undergraduate was learning to enjoy what I was studying throughout my classes. I came in as a freshman unsure if I was going to love computer science as a field of study for the next four years. In fact, the difficulty of thinking abstractly and programming as a novice made me believe that I’d never enjoy the diverse material that makes up computer science, because I simply thought I would never improve. However, following my completion of “Computer Organization and Systems Programming”, I knew that I was in the right program. This class was my first experience working with raw memory addresses and binary operations, which helped me better understand computer science as a field of studying abstractions, algorithms, etc. Realizing this helped me tremendously during the rest of my undergraduate career and made future computer science classes much more enjoyable and manageable. Ultimately, what I’m trying to emphasize is that it’s alright if you don’t love your major immediately during your freshman year. When choosing a field of study, love at first sight may not occur immediately. Patience is such an important quality to learn and embrace. If you see yourself improving throughout your courses, you owe it yourself to progress as far as you can. My dad once told me, “If studying computer science was easy, everyone would be doing it”. Don’t be scared of a challenge, you might surprise yourself when you accomplish feats that you previously thought were unachievable.
+
+

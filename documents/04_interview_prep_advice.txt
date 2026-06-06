@@ -1,0 +1,438 @@
+<!--
+
+# TITLE: Here's How to Prepare for Tech Interviews
+
+# URL: https://www.reddit.com/r/cscareerquestions/comments/1jov24/heres_how_to_prepare_for_tech_interviews/
+
+-->
+
+Here's How to Prepare for Tech Interviews
+Almost all of the questions posted in this sub are some form of "what do I have to know/do to pass a tech interview/get a job." Here's some distilled advice I can offer from having conducted over 1000 tech interviews. This doesn't cover everything, but I think it covers the most important foundational elements.
+
+Setting expectations: If this is your first time looking for a job, or you haven't had to interview in a number of years, expect to invest some effort in preparing for the interview. It's usually the industry professionals that completely ignore this step, but some college students do as well. You're essentially studying for a test, don't slack off - it's going to be work. All of those things that you've been telling yourself don't matter (maybe you're a bit fuzzy on how exactly the internet works - do you really know what happens after you hit enter on the URL bar?) that you don't know - now it's time to address those gaps head on. So, what matter.
+
+For the sake of space, I'm going to focus on what a fresh grad needs to do to prepare and that's more consistent across companies (and it's a shorter list).
+
+Data Structures
+
+Go to wikipedia and read the whole page of each of these a few times, then write your own (for real, actually write the code and play with this stuff - that is the most important part)
+
+Array
+
+Linked List
+
+Stack/Queue
+
+Trees (Tree, Binary Tree, Binary Search Tree, Red-Black Tree, etc. Learn as many as you can)
+
+Heap
+
+Hash Table (this is really important - understand all of the different collision mitigation mechanisms, understand what amortized constant-time means)
+
+Directed/Undirected/Weighted Graphs
+
+Trie (pronounced "tree")
+
+Linked Hash Map (this is very specific, but comes up a LOT in interviews)
+
+You should know the Big-O for insert, delete, lookup, etc. for each of these. Know how the mechanics work. It isn't a good interview questions, but you should be able to code every single one of these. Then, prepare real-world examples of when you'd want to use each of these and explain why it's the best choice. Data Structures come up in technical interviews in two way. The first is in coding questions where you're expected to use the right one at the right time. The second is on a comparison question - not connected to code - "why would you use X over Y in situation Z."
+
+Algorithms
+
+Again, make sure you actually code these for real when practicing. Simply reading code someone else wrote will not cut it. Open up your favorite IDE and start typing. This is critical because often times you actually have a gap in your knowledge, but your scumbag brain convinces you it's ok (this happens without you even realizing it). The only way to find these gaps is by writing code. Know all of the Big-O for this and how it's derived.
+
+You don't have to go crazy here, but review a couple of:
+
+Sorting algorithms (both comparison sorting and non-comparison sorting)
+
+Tree traversals (just memorize all of these inorder, preorder, postorder, level order)
+
+Traversals - Dijkstra's, A*, BFS, DFS (know the difference between DFS and BFS when would you use one over the other and why - hint, is usually matters when you don't have to search the whole space. Also make sure that you can code recursively and using your own stack/queue)
+
+All the prefix-tree searches
+
+Great, you're about 60% done now. Now you need to practice applying this knowledge. Find a source of interview questions (random websites, glassdoor.com, cracking the coding interview, etc.) Code answers to those questions. I strongly recommend forcing yourself to pretend you're in an interview setting. Most of these questions should be solvable in ~10-15 minutes, some will be more like 20-25. Time yourself. Before you write a single line of code, organize your thoughts and figure out the entire solution, then start coding. The coding part should be boring and straightforward. In the actual interview, do the same thing. Before you write a single line of code, make sure that you validate with the interviewer that your approach is a good one. Practice practice practice this stuff.
+
+Fill Gaps
+
+This is where you get to be honest with yourself. That long list of things you don't know that you keep telling yourself is ok because the stuff you don't know isn't actually important....well, it is. Even if it isn't, your interviewer might think it is and it's better to have a job than be right. Here's a list off the top of my head that I hear people say isn't important (but you really should know).
+
+Writing code - (I put this here half as a joke. I can't tell you how many people with 15+ years of experience lose their mind when I ask them tow write some code with me. These "architects" do not end up getting jobs. Same goes for managers and other support positions. I know that you're not going to write production code, that's fine - you should be able to write some code, though.)
+
+Bits and Bytes - Yes, you should understand how all that bitshifting stuff works in whatever language you're going to interview with. You should know what big and little endian are. Do a couple practice questions, even simple one. Try something like..."write a method to determine if the bit-wise representation of an integer is a palindrome."
+
+How the internet works. This applies more to companies....yeah....it applies to everything these days. You should know how sockets work, you should know what TCP/IP is. You should know what HTTP actually is. Learn your networking layers and what's responsible for what You don't need to know all of the details of the protocols, but you should know some of them and that they exist. This sounds daunting, it should only take a couple of hours.
+
+Databases. Learn some basic SQL and data modeling if the job you're applying for uses databases.
+
+Learn a bit about testing. Write some code and test it. What's TDD
+
+If you've only ever used Windows....consider using linux for a bit.
+
+Whatever else you can think of. A good mental exercise is to imagine yourself in an interview..."man, I hope they don't ask me about X." Figure out what X is and read about it.
+
+The good news is, the things on this list usually are far easier to learn than you think they will be. These are usually scars from undergrad or gaps from a non-traditional route to CS that sound hard. They're all easier to tackle than you think.
+
+Behavioral
+
+Alright, almost done. Tech interviews aren't all about tech (they mostly are these days, but not completely). You need to come across as someone people want to work with. Smile, be energetic, be excited about the company, know what they do, have ideas about what they could be doing. You're almost certainly going to encounter some behavioral interview questions. You can prepare for these. I suggest coming up with 3 situations where you were working on a tech project and things went well, and 3 stories for when things didn't go well. Then practice telling the stories, make sure to include some setup information, what was the setting, what was the project, who was working with you, what was your role...then tell the story....then for the positive stories talk about the impact of your work, did you win, save the company money, what? For the negative stories, finish up by talking about what you learned and how you'd approach the problem differently in the future.
+
+Parting Words
+
+Get a good nights sleep and do the best you can. Expect to fail at some of these interviews, that's ok, treat it as a learning experience and recognize that there are both good and bad interviewers. It's possible for a terrific candidate to get thrown to a bunch of shitty interviewers and not end up with a job (happens more than people like to talk about). That isn't to say that you should use this as an excuse to not learn from the experience, but interviewing is a game. Don't try and fight the rules or think it's stupid. It is what it is and that's what's standing between you and the job you want. Learn to play the game and win by practicing :-)
+
+Best of luck, sorry for the typos. For the people just getting started, you aren't a fraud, we all know how little fresh college grads know, we factor that in to the ramp-up process. Be prepared to work hard.
+
+Edit: I'm just going to put some more things as I think of them down here. I didn't think people would find this information so useful.
+
+Don't Sell Past the Close To all you extroverts out there, I can't tell you how many times someone's been just a bit too honest. When I'm interviewing you, I'm your best friend. My goal is to get you as relaxed as possible for a couple of reasons. First (and really the main motivating factor in choosing to be nice), your performance is best reflected when you're relaxed. Freaking people out is expensive because some awesome engineers just freeze up when overly stressed in interviews (I've also found little correlation between interviewing-stress-paralysis and real-world-fire-drill-paralysis). I'm nice because I don't want to exclude certain types of introverts from the hiring pool. The other reason I'm nice is because extroverted people think we're friends. We aren't friends, I'm interviewing you.
+
+I don't care how much you think you're clicking with your interviewer. He's invited you on his boat already, etc. You aren't friends, so don't run your mouth.
+
+It's human nature to want to form bonds with people and one way we make friends with people is by doing this elaborate dance of sharing secrets with people. Early on there's a tendency to share some extra truths, usually fairly mild, but in an interview setting - bad idea. Things I've heard:
+
+"Yeah, I know it sounds impressive. But hey, between you and me, I only really had to work 5-6 hours a day to get it done."
+
+"I know I'm not supposed to say this in an interview, but the real problem was my co-worker. He was such a stickler for the littler details we could never get any code pushed out." (Actually anything that would start with "I know I'm not supposed to say/talk about this in an interview - just avoid that).
+
+Don't over-share. If you think something is going to make you look bad, it probably will.
+
+Exceptions to this rule: There are a few things that people think are bad which are perfectly fine:
+
+Admitting you don't know something (better than making stuff up)
+
+Asking questions to make sure you understand the problem
+
+Saying that you're a bit nervous and want to take a couple seconds to compose yourself (totally fine, don't be overly dramatic about it, though)
+
+You can be friends with the interviewers you like after you get hired. Don't give people reasons not to hire you for free.
+
+
+Upvote
+898
+
+Downvote
+
+71
+Go to comments
+
+
+1
+
+Join the conversation
+Sort by:
+
+Best
+Comments Section
+u/Raknarg avatar
+Raknarg
+•
+13y ago
+The more I learn about this field, the more I feel like an idiot who doesn't know anything about programming
+
+
+
+[deleted]
+•
+3y ago
+u/Intern_MSFT avatar
+Intern_MSFT
+•
+13y ago
+Absolutely amazing! And for what its worth:
+
+Add strings to this. Reverse a string type questions.
+
+Do ABSOLUTELY look at fizzbuzz questions. Try to implement the max, min, the atoi, the itoa, the ceil, the floor. They are the devils.
+
+[deleted]
+•
+13y ago
+This needs to be on the sidebar. Such a great guide.
+
+
+u/kris40k avatar
+kris40k
+•
+13y ago
+Definitely. I appreciate the write up and saved it for later.
+
+u/MHarrisonConsulting avatar
+MHarrisonConsulting
+•
+13y ago
+Business Analyst
+Great advice and a good read! Thanks for posting this.
+
+One thing I'd add:
+
+then write your own (for real, actually write the code and play with this stuff - that is the most important part)
+
+Don't just do this in an IDE - be able to do it on paper as well. In fact, I'd suggest doing it on paper first, then code it up, fix bugs, make changes, then do it again on paper. Not only will this give you a much stronger understanding of the problem than just using an IDE will, but you're also probably going to be doing it on paper or a whiteboard during the interview. It's ok to forget syntax and have imperfect code on paper during the interview, but you should be able to demonstrate that you fully understand what you're doing.
+
+fecak
+•
+13y ago
+This is a good guide, well done. I'd add that in addition to preparing for questions that you can answer, you need to be well prepared on how to answer questions that you don't know the answer to - know how to fail gracefully on a tech question. Too many people spend so much time studying for the answers to any possible question that they think they are covered, and don't have a contingency plan.
+
+You will be stumped at least once, probably more, in most interviews. Prepare for that as well.
+
+u/itsgreater9000 avatar
+itsgreater9000
+•
+13y ago
+Software Developer
+Great read, appreciate this! You mentioned practicing with questions, I have this site bookmarked: http://www.geeksforgeeks.org/ It may help to those wishing to practice.
+
+
+[deleted]
+•
+13y ago
+Its a awesome site for preparation..
+
+u/gyroball avatar
+gyroball
+•
+13y ago
+This is a great overview that serves to motivate me while also helping me realize I know jack-all about getting a decent software gig. So, thanks, jerk.
+
+[deleted]
+•
+13y ago
+I'd like to add, for every programming question you get asked, think about scale. How would you code it for a single tiny website, vs how would you develop something running on Google's homepage?
+
+
+RunninADorito
+OP
+•
+13y ago
+•
+Edited 13y ago
+Hiring Manager
+Absolutely. I forgot to mention that specifically but just assume that every question asked has to work at scale. Your job is to come up with the most efficient (do ask if the interviewer would like to optimize for memory usage or CPU time) answer you can think of.
+
+If the best you can come up with is brute-force and runtime is >= O(n2) and it isn't an NP-Hard problem....keep thinking. Always mention the brute force solution (you can use that to buy some time), but let the interviewer know you're going to try and think of a better solution.
+
+
+[deleted]
+•
+13y ago
+[deleted]
+•
+13y ago
+You couldn't have posted this at a more perfect time. I'm entering my last semester at university this August, and I was planning on starting the interview process, since my school gets a lot of it's students recruited. I spent the summer going through my data structures and algorithms textbook so I already went through most of the things on your list. Thanks for adding the rest on behavioral, how the internet works, and bits and bytes. Great post! I hope I get an interviewer like you.
+
+[deleted]
+•
+13y ago
+Behavioral interviews these days are basically the design questions. Design questions fail most candidates because they sound stupid and pointless, ignore this, ignore that until it doesn't make any sense. Interviewers are instructed to see if you are losing motivation when the project starts to make no sense and if you get sloppy as you run out of time.
+
+tabiul
+•
+13y ago
+@RunningADorito do you have any specific advise for senior candidate. I have an interview coming up and am not a fresh graduate. Personally I feel years of experience is misleading as even though I might have 10 year experience on paper but it could mean nothing but that will not be the way the employer will look. Any specific advise for me
+
+
+RunninADorito
+OP
+•
+13y ago
+Hiring Manager
+Same base advice, even more emphasis on the behavioral/situational stuff/practice design.
+
+morningcoffeegamer
+•
+3y ago
+Is it bad to say "This is my first technical review"?
+
+
+[deleted]
+•
+13y ago
+trancez
+•
+13y ago
+THANK YOU!!!
+
+This is one of the greatest posts ever, I'm an aspiring junior developer and I can't thank you enough for this information. I've been googling tech interviews and writing down Q/A but this is straight to the point.
+
+u/aidan1109 avatar
+aidan1109
+•
+3y ago
+Hello sir! Lovely Guide! If you are still here and this comment doesn't get removed, what are your thoughts on LeetCode?
+
+u/belovedcye avatar
+belovedcye
+•
+13y ago
+Good read =)
+
+
+[deleted]
+•
+13y ago
+
+[deleted]
+•
+13y ago
+[deleted]
+•
+13y ago
+Thank you! I need to look at this again tomorrow.
+
+[deleted]
+•
+13y ago
+Upvoted and saved.
+
+[deleted]
+•
+13y ago
+I graduate after next summer and this is just what I needed. Saving this for sure. Thanks for the post.
+
+cs_anon
+•
+13y ago
+Software Engineer
+I completely agree with everything you have posted. It's anecdotal evidence, but following a similar set of steps has landed me a fantastic new grad job.
+
+Also note that sometimes you'll be asked system design questions (e.g. how would you scale a shopping cart system given X, Y, and Z). For some these, learning about distributed systems can be helpful.
+
+shamoke
+•
+13y ago
+Saving this for future use!
+
+u/the_-j-man avatar
+the_-j-man
+•
+13y ago
+Thank You .
+
+Saved for later .
+
+interview guide .
+
+
+u/Igot2phonez avatar
+Igot2phonez
+•
+4y ago
+Saved for later .
+
+Me too
+
+u/FistedByGod avatar
+FistedByGod
+•
+13y ago
+Thank you. Saved.
+
+
+u/Igot2phonez avatar
+Igot2phonez
+•
+4y ago
+Ur Never seeing this response
+
+u/cp789 avatar
+cp789
+•
+13y ago
+I wish I had seen this right after you posted, but hopefully I'll still get a response.
+
+How applicable would you say this is to a software engineer with about 25 years of experience? Assuming current skills and a great employment history and references?
+
+I've been recruited into my last 5 positions by colleagues or former managers, so it's been about 15 years since I had a traditional interview. Now I'm considering a move to a city where I have very few professional contacts and can't expect a friendly interview.
+
+At some point in my career I've written most of the data structures and algorithms you mention, and I agree it's important to understand the tradeoffs and complexity. I'm sure I could write any of them I needed to with 10-15 minutes to refresh my memory.
+
+But I can count the number of times I've had to write a sort routine or a tree traversal from scratch in the last decade on one hand. I swapped that out of memory a long time ago. I USE them all the time, but as building blocks to solve other problems.
+
+In the real world, I'd be asking why if someone chose to write a sort algorithm from scratch rather than choose the appropriate algorithm from a well tested class library. Unless they were writing the class library.
+
+But, if I need to brush up, I will. I just want to make sure I spend time on what I actually need to interview well.
+
+
+[deleted]
+•
+13y ago
+u/Creative_Contest_558 avatar
+Creative_Contest_558
+•
+1y ago
+Prepare for non-tech question. Just google top 20 commonly asked questions, and memorize the best responses for them. Like "Tell me about yourself" and all that stuff. Thats the first impression of you, and you want to make sure interviewer likes you.
+
+Before the interview - do 30 minutes company research, their ideas, their problems, their tech stack. Ask questions related to info you got.
+
+GRIND leetcode problems. All big tech are asking leetcode during interviews. You should easily solve any easy-mid question, before you go to the interview. Or you can use some invisible ai assistants such as interviewcoder, or https://techscreen.app/ . In this case you dont have to worry about any tech related questions.
+
+popper1313
+•
+1y ago
+Thanks
+
+[deleted]
+•
+13y ago
+Having to come up with cute stories to tell just shows how ridiculous this type of interview is. Do you want a salesman or a software developer? Human sheep behavior never ceases to amaze.
+
+Excellent article though, since it's how lots of interviews nowadays are like.
+
+
+RunninADorito
+OP
+•
+13y ago
+Hiring Manager
+I'm not sure what you mean by cute stories. This isn't "sheep." You think it's not job related that employers ask about past job experience? I'm suggesting that you organize your thoughts so you know off the top of your head what important things to tlak about instead of stumbling around.
+
+There are lots of bad things that happen in interviews, but I don't think that this is one of them.
+
+
+
+Upvote
+10
+
+Downvote
+
+Reply
+
+
+codemaxpow
+•
+13y ago
+•
+Edited 13y ago
+DiabloVixen
+•
+13y ago
+Great Read. I'm going to send anyone that asks me about interviews to this post!
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+[deleted]
+•
+13y ago
+This shoukd be stickied.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+u/Gimme_Yer_Lupins avatar
+Gimme_Yer_Lupins
+•
+13y ago
+Great guide - saved!

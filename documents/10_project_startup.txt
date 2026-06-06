@@ -1,0 +1,242 @@
+<!--
+
+# TITLE: How do I get started on personal computer science projects?
+
+# URL: https://www.careervillage.org/questions/1014366/how-do-i-get-started-on-personal-computer-science-projects
+
+-->
+
+Dec 30, 2024
+·
+3975 views
+·
+Translate
+·
+
+How do I get started on personal computer science projects?
+Do I just follow a tutorial that gives me step-by-step instructions? Do I have to create the whole thing from scratch? What are some projects I can put on my resume?
+
+technology
+computer-science
+projects
+8 answers
+Michael Varteresian’s Avatar
+Michael Varteresian
+Software Architect
+7
+Answers
+0
+Updated
+Dec 31, 2024
+·
+Translate
+·
+
+Michael’s Answer
+Hello Anna,
+
+Looking at the other answers, you can see that your first challenge is narrowing down the type of project that you would like to do. This is very challenging because there are so many options. You do not need to pick the perfect project to get started. If you are just starting to explore computers, you do not know what the possibilities are what areas you will like and not like until you have tried something. So do not think too hard about it. Your goal should be to start exploring and learning something new.
+
+Do you have any clubs in your school that work with computers? A robotics club, a Girls Who Code (GirlsWhoCode.com) club, maybe even a computer club. Talking to other students who have already gotten started learning about computers could be a big help.
+
+I am guessing that you would like a project that uses a personal computer, vs building one and that you are interested on software projects. To start narrowing down your ideas, I would think of areas that you are interested in: art, music, math, science, etc. Then think of something simple to do in that area. Writing software is much more that just writing code. You always need to have a clear picture of what you want the program to do first. Then you can break the problem down into small pieces and figure out how to write the code for each piece. If you start with something too ambitious, you may end up very frustrated and stuck. If things go well, you can always take make it more complicated. If you like music, for example, you could write a small program that lets you play music using the keyboard. Yes, it has been done before, but not by you. You would learn about how to write the program, a little about how computers work (how to know what key is pressed and how to play a note on the speaker) as well as a little physics (what is the frequency of that note). Your project presentation could include information on all those different areas. If you like science or math, there are many public web sites that let you access things like weather data or stock market data. Your program could query the data and analyze it. What was the average temperature in your town? How many days does it rain in a month? Does the stock market go up when it is hot? This would let you learn how to interact with other computers using APIs (how programs talk to each other), how to retrieve data, how to perform some calculations and how to display the results.
+
+And do not forget to ask for help! If you get stuck on something, do not struggle too long on your own. You are learning. Talking to someone can help you learn how to look at a problem from a different angle, which often makes it easier to find the solution.
+John Hunt’s Avatar
+John Hunt
+Verizon innovative learning
+Data Science and Analysis / Business Intelligence
+3
+Answers
+0
+Updated
+Dec 31, 2024
+·
+Translate
+·
+
+John’s Answer
+I'll give simpler advice, although I agree with what others have said as well and think structure can do you well.
+
+I believe that the best way to learn something is to do it. So think of something you want to do for a personal project, and then break it down into steps that you can research how to do.
+
+Maybe you want to show a timer on a website for a countdown until nearby concerts on a map for all of the artists that you follow on Spotify. So you'll need to figure out how to show a map with custom data, how to pull artists from you music tastes from spotify, how to get their concert info from some online source etc. If you break it down and tackle it step by step then you'll likely accomplish your goal - and most importantly you'll practice problem solving on your own. Often times we want to learn the "how" other people do things instead of the "why". As a software developer it is important to learn both (in my opinion), so that you can help accomplish the goal, not just so that you can have pretty code.
+
+You will still also need to learn "best practices" at some point, and I'd do some personal projects that are from tutorials or other methods folks have mentioned, so follow their advice also.
+Ankush Dey’s Avatar
+Ankush Dey
+Software Developer
+2
+Answers
+0
+Updated
+Jan 20, 2025
+·
+Translate
+·
+
+Ankush’s Answer
+Hi Anna,
+
+Assuming you are talking about software development here, if you really want to have some impressive projects on your resume following a tutorial wont help. You need to start with learning a programming language of your choice. The simplest one would be Javascript (JS) in my opinion.
+
+JS can be used in both Frontend and backend programming. Also you will need to learn HTML and CSS. You can follow any youtube tutorials to learn these technologies. But practicing is the key here.
+
+Once you are familiar with these, you can start planning for your project. It could be a simple static website for your school or a particular club you have joined or a blog site or a site to schedule appointments for doctors. Once you have finalised on your idea, make a list of what features you want in your software. Create some rough designs and then you can start developing it feature by feature.
+
+I hope this helps. Wish you all the best!
+John Hand’s Avatar
+John Hand
+User Experience Designer
+50
+Answers
+0
+Updated
+Jan 03, 2025
+·
+Translate
+·
+
+John’s Answer
+Hi Anna,
+
+One approach would be to define a problem to solve, do some research, ideate on different solutions, then use trial and error until you succeed. This could be as simple as helping fix someone's old computer. Solutions might be running some diagnostics, freeing up RAM, removing unneeded software, refactoring, etc. or it might involve taking the computer apart, cleaning out dust and debris, or replacing some hardware.
+
+Another approach might be to find an old computer, take it apart, and put it back together with some hardware improvements. I had a computer in high school that needed a new motherboard. Taking it apart, installing a new motherboard, and putting it all back together was very educational - even though I was just trying to increase computing power for gaming.
+
+If you're more interested in coding, consider a problem or need that you'd like to address, then research different ways to create an app that could address that issue. If you lean more into design, consider reaching out to small local companies, churches, or non-profit organizations that might like to have some help with their website. Consider what their business goals are and research what pain points users face when using their website. Then you could design solutions and collect metrics to measure the impact and validate the work. These types of projects make for great content for a resume, or even a portfolio if you'd like to showcase some of your case studies and tell the story of how you work - not just the work you do. If you go that route, be sure to explain each step and the decisions made, and don't be afraid to highlight fails. Setbacks are learning opportunities that reveal to employers how you learn and grow from failures, which is a great trait for candidates to have.
+
+I hope this helps!
+Karin P.’s Avatar
+Karin P.
+Lecturer, Academic Advisor, Career Coach, Mentor
+1209
+Answers
+0
+Updated
+Jan 23, 2025
+·
+Translate
+·
+
+Karin’s Answer
+Hi Anna,
+
+It depends what the project is for, what you want to accomplish. Are you interested in a particular area of computer science, hardware, software, frontend, backend, e-commerce, UX/UI etc? Are you in university studying computer science? Are you still in high-school and just learning by yourself? Are you developing a portfolio for employment purposes or to start a business? How far along are you, starting to learn programming or already with knowledge of programming languages and some experience?
+
+Generally speaking, to impress employers or customers with your skills, you need to develop your own projects: identify a problem, brainstorm a solution, identify and limit what your solution is supposed to do, go ahead and make it happen. You can showcase a portfolio of your projects on a website and add a link to your CV. Include not only the final product, but the learning/development path including failures.
+
+If you are more on the beginner side of things, tutorials can be very useful. YouTube has loads of free resources including tutorials that guide you through the steps of a project. Another free resource is https://www.freecodecamp.org. Pretty much any paid course for a certificate on Coursera or other online learning platforms comes with a number of projects as well that you can use to get started on something new and practice your new skills.
+
+I hope this helps! Good luck with your project!
+
+KP
+John Easton   CEng FIET FBCS CITP’s Avatar
+John Easton CEng FIET FBCS CITP
+Design large computer systems for companies
+59
+Answers
+0
+Updated
+Dec 31, 2024
+·
+Translate
+·
+
+John’s Answer
+Hi Anna!
+I think the first question you need to ask yourself is what sorts of things are you really interested in doing? Do you want to build your personal computer from scratch or will you be starting with one that you've bought / borrowed / inherited? There are lots of videos on the likes of YouTube that will take you through the individual steps of doing this, but also plenty of web articles that will talk you through the process of choosing components (making sure they all work together!!) etc. You will learn a lot by actually building the machine, plus it will give you some real satisfaction.
+Once your hardware is sorted, I'm assuming you're then going to maybe want to do something with software? Do you want to write / code / program this software? I ask this because way too many people think that computing = coding and nothing is further from the truth. There are lots of online resources from online courses (think coursera, khan academy etc.) to web tutorials and videos. But have you actually thought about buying a book (second hand if cost is a concern) that will help you learn. I would always suggest flipping through any book to find out if you like the writer's style. I've got some really great books in that respect and some utterly awful ones. Find what works for you!
+But actually (and this takes me back to the start) if what you want to do is to USE the software rather than write it, then think about the sorts of things you want to do. Is art your thing (drawing packages)? What about music? Or animation? Or boring (but unfortunately very helpful) skills in things like MS Office (Word, Powerpoint etc)? You mention science. There are lots of scientific packages you can use to allow you to work with whatever science you are interested in doing. These are all equally valid projects and again lots of online resources to choose from.
+
+I think it comes down to this. Choose things you like doing. You will be more motivated if you enjoy it rather than find it a chore to struggle through. Personally I would go down the Linux route when it comes to software - so much more options to choose from, especially if money is tight. On that thread, remember that you can do a lot of this on something like a Raspberry Pi and you don't actually need a full blown PC if you are just starting out and seeing if this is something for you. Good luck!
+Patrick Meyer’s Avatar
+Patrick Meyer
+Executive - Data Analytics and AI
+1058
+Answers
+0
+Updated
+Dec 31, 2024
+·
+Translate
+·
+
+Patrick’s Answer
+Anna, please understand that getting started on personal computer science projects involves a combination of hands-on learning, creative problem-solving, and strategic planning. While following tutorials can be incredibly valuable, particularly when you’re starting out, it’s important to move beyond just step-by-step instructions. Tutorials help you build foundational skills, but to truly grow as a developer, you should aim to apply those skills in unique ways and build your own projects that solve real-world problems. Begin by choosing a project that aligns with both your interests and your skill level. For example, you might start with building simple applications like a to-do list or a personal portfolio website. Once you’re comfortable, challenge yourself with more complex projects such as a web scraper, a data analysis tool, or a small-scale machine learning model. These types of projects demonstrate practical skills and problem-solving abilities that are highly valued by employers. Additionally, contributing to open-source projects or collaborating with others on platforms like GitHub can enhance your portfolio and show your ability to work in a team setting. As you work on projects, document your progress, challenges, and solutions, which not only helps you learn but also makes your work more impressive to potential employers. Ultimately, the key is to strike a balance between guided learning and independent exploration, progressively tackling more complex projects while continually expanding your skill set.
+Dr H’s Avatar
+Dr H
+Dr. H's Research
+1464
+Answers
+0
+Updated
+Dec 31, 2024
+·
+Translate
+·
+
+Dr’s Answer
+Hey there, future coding wizard! Ready to conquer the world of computer science one project at a time? Well, buckle up because it’s going to be a wild and fun ride. Let’s dive in!
+
+1. Pick Your Project (aka Choose Your Adventure)
+Before you start, think of your project like a pet. Choose one you actually want to take care of. Sure, you can build a fancy to-do list app, but wouldn’t it be more fun to build a to-do list app that also gives you motivational quotes like “You got this!” every time you check something off? Pick something that excites you—whether it's a weather app, a game, or something that solves a personal problem, like an app that helps you avoid checking your phone during work hours (because let’s be real, we all need that).
+
+2. Tutorials Are Your Bestie (But Not Your Only Friend)
+Yes, tutorials are awesome. They’re like having a helpful friend who tells you what to do (but without judging you when you forget the semicolon). But! You’re not a robot, so once you’ve learned the ropes, you should start adding your own flair. Think of tutorials like the skeleton, and you’re going to be the cool person who dresses it up in something amazing, like a leather jacket or a top hat.
+
+3. From Scratch? More Like From... Pinterest Inspiration
+If you’re feeling brave, creating from scratch is like cooking dinner without a recipe—you might burn the first few meals, but eventually, you’ll be making Michelin-star apps (well, almost). Start small, like a basic calculator or a website that lists your favorite memes. Once you’ve done that, you’ll be ready to tackle something like a personal finance tracker that makes you feel like the next tech mogul. Scratch projects are your playground, and you can make them as fun as you want.
+
+4. Projects for Your Resume (You’ve Got This)
+Let’s be real: your resume is like your personal movie trailer, so let’s make it awesome! Here are some ideas:
+
+Portfolio Website: Because who doesn’t want a fancy website to showcase their mad coding skills? Bonus points if you add a background of a dancing cat.
+Simple Game: Start with something small, like a “Guess the Number” game. It’s easy to build, and you can say, “Yeah, I coded that” like a pro.
+Automation Tools: Build a script that automatically sends an emoji-laden text to your bestie every time you get a pizza delivered. It's all about efficiency.
+Data Analysis Projects: Play with public datasets and create something cool, like predicting what type of pizza people will order based on the time of day. No one can resist a good pizza algorithm!
+
+5. Code Challenges (They’re Like Gym for Your Brain)
+Want to level up your skills? Try some coding challenges on websites like LeetCode, HackerRank, or Codewars. They’ll make you feel like you’re in an intense workout session for your brain. And just like going to the gym, sometimes you’ll be sore... but also totally awesome when you conquer a challenge.
+
+6. Failing = Progress (Seriously, Embrace It)
+Here’s the truth: you’re going to mess up. A lot. But that’s okay! Every failed attempt is a step toward greatness (and possibly a few hilarious moments you can laugh about later). Just remember, every bug you fix is like a mini victory, and eventually, you’ll be the one helping others debug their code while sipping coffee like a true coding master.
+
+Final Tip: Have Fun!
+Seriously. If you’re not having fun, what’s the point? Computer science is like a treasure hunt, and the more you dig, the cooler the treasure gets. So keep exploring, keep coding, and don’t forget to laugh at your mistakes (because we all know they’re coming).
+
+Now go forth, young coder, and make something amazing! You’ve totally got this.
+Related Questions
+If you could redo college, what would you do differently?
+#college #college-major #college-admissions #college-advice ##college #college-bound #college-recruiting #colleges #university #user-experience #nursing #teaching #education #psychology #computer-science #science #stem #engineering #accounting #business #college-counseling #lawyer #registered-nurses #doctor #real-estate #technology ##college #higher-education
+Should I talk about my failures when being interviewed for a job?
+I read an article about how a recruiter who interviews students got an answer of "I expect failure" from one of the students. Then they went and wrote an article on how this answer was amazing. Should I do the same and state some failures like struggles in class or should I keep that to myself. #science #technology #mathematics #interviews #interview-questions #failure #job-application
+What will make you stand out at a job interview?
+Hey! I was just wondering what could make me stand out a little when I go to a job interview. Would it be something that I would say, something that I would do, or something else? Thank you! #business #medicine #teaching #law #technology #interviews #information-technology #customer-service
+About Us
+Mission
+Our Impact
+Team
+Hiring
+Blog
+Press
+Contact Us
+Our AI Career Coach
+Get Involved
+For Students
+For Professionals
+For Teachers
+Donate
+Partnerships
+K-12 Schools
+Nonprofits
+Higher Education
+Employee Engagement
+Workforce Development Boards
+Trade Associations
+Professional Associations
+Conference Volunteering
+More
+Career-Readiness Resources
+Community Guidelines
+DEI Guidelines

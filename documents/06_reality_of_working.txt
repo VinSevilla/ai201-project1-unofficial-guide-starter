@@ -1,0 +1,82 @@
+<!--
+
+# TITLE: My reality of landing a computer science job
+
+# URL: https://medium.com/writing-340/my-reality-of-landing-a-computer-science-job-75649e6935df
+
+-->
+
+Writing 340
+·
+Follow publication
+
+My reality of landing a computer science job
+Luke Wang
+Luke Wang
+
+
+Follow
+6 min read
+·
+Mar 17, 2024
+
+Listen
+
+
+Share
+
+I’ve been looking for a computer science internship since my junior year at USC, and that is considered late when compared to my peers. Last year I applied to 46 jobs and this year I have applied to 63. To some these numbers might seem like a lot, but the sad reality of it is, it is not. To stand a chance against the saturated pool of applicants, it is typical for a CS student to apply to over 200 jobs just to hear back from 2–3. (54)
+
+I’ve talked to a ton of my peers and these conversations have led to the consensus that success in finding a job (in general) is to send out massive amounts of applications and hope for the best. Guides online, and the experience of other people who are on the path of software engineering say to apply to all positions relating to what you want to do. That’s been my strategy. As I explore the space of other people’s experiences with the job-hunting process, I’ve been coming across alternative medium posts that have from people who have been successful in getting internships.
+
+Landing Your First Computer Science Internship
+Tips for landing your first internship or job as a software engineer
+medium.com
+
+How to Land a Freshman/Sophomore CS Internship
+An overview of how the process works, how to put your best foot forward, and what helped me receive an offer at…
+akench.medium.com
+
+Reading about these experiences have been scary to me because I’ve feel like I am late to the party. Allie’s guide is all about landing your first internship as a freshman/sophomore and here I am as a senior with no internship experience worrying about a job. Let my struggle now be a wakeup call to you, wherever you might be in your career, to get started. The first step to take is to apply. I write this now, not because I have given up or because I have failed, but because I am keeping myself accountable to applying daily. My goal is to apply to 5 jobs a day until I succeed because failure is not an option. (58) These numbers in parenthesis are the number of jobs I applied to at the time of writing.
+
+One of the things that hold me back the most when it comes to applying to jobs is the feeling of inadequacy. It is a feeling that I have been feeling since the beginning of my computer science journey at USC. When I came to USC, I was not a computer science major, and I switched into the major midway through sophomore year. During my sophomore year fall, I was taking an introductory computer science course, and this would have been a good time for me to search for an internship, but I did not feel prepared to take on the screenings required for most Computer Science internships, nor did I know that it was a good time to get started with applying to a job.
+
+Jake talks about this feeling in his blog:
+
+“One of my big inhibitors while applying, interviewing, and even starting my internship was feeling intimidated. I felt inferior and unsure, especially during deep technical conversations where I didn’t even understand the question, let alone have the ability to give a competent answer. Working on personal projects gave me a way to transition the conversation into something that was related and that I could confidently talk about. “
+
+Little did I know, sophomore year would fly by, and junior year would begin. Then junior year flies by, and now I am almost halfway through with my last year in college.
+
+Get Luke Wang’s stories in your inbox
+Join Medium for free to get updates from this writer.
+
+Enter your email
+Subscribe
+
+Remember me for faster sign in
+
+The other day, I was doing some LeetCode practice, and I came across a discussion post titled “80% luck and 20% hard work.”
+
+80% luck and 20% hard work - LeetCode Discuss
+Level up your coding skills and quickly land a job. This is the best place to expand your knowledge and get prepared…
+leetcode.com
+
+As I read through this discussion, I felt better about the situation that I am in because I realized I am not alone. A comment that stood out to me was
+
+“Companies go through cycles where they downsize too much, realize they’re lacking talent, and then overcompensate by hiring too much. Right now we’re in a downturn, so it’s tough to get hired regardless of how talented you are.”
+
+A comprehensive list of 2023 & 2024 tech layoffs | TechCrunch
+Here you'll find a complete list of all the known layoffs in tech, from Big Tech to startups, broken down by month…
+techcrunch.com
+
+2023 was most definitely a downturn in the technical world with a quarter million layoffs. These layoffs caused an increased number of people searching for a job in the tech field, but in reality, it does not affect the entry level market significantly. However, the number of people interested in studying computer science at universities and taking bootcamp classes have skyrocketed in the past few years and it continues to do so. During winter break, I went to the doctor to do my annual health check-up and I told my doctor that I was a computer science major. But my doctor said, “Wow the previous person I checked was also a computer science major, and I told him this as well but the CS field is getting saturated, and it was saturated ten years ago. ”
+
+This scared me because of several things. First off, as I mentioned earlier, I have not had significant professional experience working in software engineering and secondly, I am a senior in college. It is too late to turn back now, but I also don’t have as much experience like to confidently continue forward. I had imposter syndrome. I was feeling like I’ve done a whole lot of nothing, and I was too behind to do anything.
+
+Giving up for me now is not an option, and if you are a computer science student yourself, I urge you not to worry.
+
+The saturation of computer science majors and people with the capability of programming has increased, but it is still possible to differentiate yourself from everyone else. Passion is hard to fake. Since I came into college, I have been trying to figure out what my passion is, and what I want to get out of college doing. Though I did not figure it out early, I realized that I wanted to be a software engineer. This came from my interest in building things, solving problems, and working in collaborative spaces. (63)
+
+I want you to think about this too. Are you truly passionate about what it is that you are pursuing? Are you passionate about the job that you are trying to get? Because if the answer is yes, then you can’t let the lack of responses, or the rejections stop you from applying to more jobs. Since you’ll be competing against such a large pool of applicants, you need to apply to as many jobs as you can find because, at the end of the day, all you need is one opportunity to show them what you can do. Once you land your first internship or job, your life will get easier after that. Rascal2pt0 on reddit says “But if you’re good at what you do, you’ll survive the entry level minefield and get into the “1–2 years experience pile” where the field starts to thin more.”
+
+Now that you’re applying to jobs, it’s important to be able to pass the online assessment and technical interview. Your friend is Leetcode and the myriad of online resources available to you. The best course of action to do is to practice, practice some more, and practice again. The hardest part is getting over the idea that you might not be good enough to compete with everyone else, but you are. At least you must tell yourself that you are. Because once you lose confidence in yourself and your abilities, there is no reason for any potential employer to believe in what you can do.

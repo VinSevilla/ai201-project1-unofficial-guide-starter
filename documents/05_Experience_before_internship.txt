@@ -1,0 +1,648 @@
+<!--
+
+# TITLE: During College, how 'experienced' were you when you got an Internship?
+
+# URL: https://www.reddit.com/r/cscareerquestions/comments/5fw1wl/during_college_how_experienced_were_you_when_you/
+
+-->
+
+During College, how 'experienced' were you when you got an Internship?
+Did you just take your intro to C++ class and not know what an object is, but you found a job paying $20/hour?
+
+Were you 15 units shy of graduation and you'd done a ton of personal projects?
+
+
+Upvote
+95
+
+Downvote
+
+65
+Go to comments
+
+
+u/codecademy avatar
+codecademy
+•
+Promoted
+
+Form a foundation for a career in AI with hands-on experience building real-world projects. Check out live virtual bootcamps, industry certification prep, and more from Codecademy.
+Sign Up
+try.codecademy.com
+Thumbnail image: Form a foundation for a career in AI with hands-on experience building real-world projects. Check out live virtual bootcamps, industry certification prep, and more from Codecademy.
+Join the conversation
+Sort by:
+
+Best
+Comments Section
+u/Fidodo avatar
+Fidodo
+•
+10y ago
+Go for an internship no matter how inexperienced you may be. It never hurts to try. My first internship was my freshman year for a grad student research project on campus. It was paid. Apply for internships regardless of your experience, but look in non typical areas as well as backup. If you're the only applicant you win by default!
+
+
+
+Upvote
+36
+
+Downvote
+
+Reply
+
+u/Hooper2993 avatar
+Hooper2993
+•
+10y ago
+How does the industry view applicants for internships that are self taught and not in school anymore? Some background for me, I'm looking to change industries I have a B.S. in civil Engineering, if that makes any difference
+
+
+u/Fidodo avatar
+Fidodo
+•
+10y ago
+Those are rarer. Most internships are targeted towards students.
+
+Having an engineering degree does help even if it isn't CS, more than a non STEM degree. I mean I assume you did a good deal of math.
+
+There are jobs available for people with low experience, they're not good jobs, but you can work your way up from them.
+
+You basically have 3 options: take a shitty job, network your ass off and charm yourself into an internship, or be your own boss and find your own clients.
+
+There are trends in the industry, but really, there are no rules. There are always opportunities that don't fit the standard path, you just need to look harder and in less obvious places to find them.
+
+
+u/Hooper2993 avatar
+Hooper2993
+•
+10y ago
+I am actually going to start attending a Meetup group in my city to start getting a network of contacts while I finish going through the Java course I'm on. After that I'm going to just get involved in everything I can to get a portfolio together then start applying
+
+
+u/Fidodo avatar
+Fidodo
+•
+10y ago
+Sounds like a good plan. Meetups are a great way to find jobs through word of mouth. Many companies offer employees 5% of a new employee's salary if they refer them so there's incentive to recommend good people they find at meetups.
+
+The most important thing is you develop the skill so you're good enough to be referred. That's the hard part.
+
+zAbso
+•
+10y ago
+Software Engineer
+For jobs, basically what you need is some kind of related experience to what you're applying for. Past jobs, projects, or internships. They want to know you can do the tasks assigned, both solo and with a team. I doubt you'll be able to get an internship as they're geared towards current students or recent grads.
+
+
+u/Hooper2993 avatar
+Hooper2993
+•
+10y ago
+That's what I figured but wasn't sure . Thanks!
+
+[deleted]
+•
+10y ago
+What did you have to do? I'm scared they are going to give me work or projects and I'll have no clue how o handle them.
+
+
+u/Fidodo avatar
+Fidodo
+•
+10y ago
+Well, figure it out! I had to figure out how java socket servers work for that one. I didn't know before hand, but you're always going to be learning new technologies on the job no matter how experienced you are. If you're going to do well, it's going to be defined by how good you are at learning new things much more than what you already happen to know.
+
+dynapro
+•
+10y ago
+•
+Edited 10y ago
+SWE
+I had no previous experience and had taken a couple CS classes (intro CS, data structures, machine code). At the career fairs, I targeted companies that weren't "big names" and was able to get interviews at a few of them. Managed to convert one of those interviews to an offer for a sophomore internship. Since then, getting interviews has been getting easier and easier.
+
+
+u/taxquestion2468 avatar
+taxquestion2468
+OP
+•
+10y ago
+Would you mind walking me through what it was like for you? How experienced were you with your coding at the time, what was the interview like, and how was the internship?
+
+Were you taught at the job or did they want you coming in ready to code?, did they have you fixing bugs, etc? Right now I have no real world CS experience and I'm trying to understand what it's like moving forward as such.
+
+And yeah I've done intro and DS. Machine code is assembly right, so I take that guy next.
+
+
+dynapro
+•
+10y ago
+•
+Edited 10y ago
+SWE
+Wasn't super experienced in coding since I started in college and only took 3 CS classes. I also did a web dev project on the side but it wasn't very in-depth. The interview was fine, got one very easy coding question, a couple OOP principles questions, and a few behavioral questions.
+
+The internship was pretty relaxed. I was taught on the job (most internship programs set aside the first 3 days to a week to get interns up to speed) and definitely wasn't ready to code at all since I didn't know the programming language or any of the frameworks.
+
+I fixed a couple bugs to get familiar with the language, and over the rest of the internship I ended up building an application that went into production (albeit with a lot of help from my mentor). I wouldn't say I learned a lot from this internship, but having this experience on my resume was very helpful.
+
+And yeah, my machine code class covered assembly. It's not applicable to high-level SWE jobs, but I think it's good to understand.
+
+
+
+[deleted]
+•
+10y ago
+elegantmathematics
+•
+10y ago
+"And yeah, machine code is assembly."
+
+I do not want to be pedantic, but machine code is NOT assembly. Assembly is a set of instructions designed for a family of processors (x86, MIPS, etc.) which an assembler converts into machine code. The machine code is binary or hexadecimal and is executed directly by the central processing unit (in general).
+
+A computer cannot understand assembly language (assembly is for humans). It CAN understand machine code.
+
+
+dynapro
+•
+10y ago
+SWE
+I'm just talking about the name of the class I took and one of the main topics it covered. To be more clear, I'll revise my original post.
+
+More replies
+u/csthroaway19420 avatar
+csthroaway19420
+•
+10y ago
+Got my first as a sophomore but relatively deep into CS coursework (about half-way to finishing degree). I had a few bigger projects across the .NET stack but no previous work experience, and my first internship wasn't even related to the languages I had on my resume (they had me do low latency C++).
+
+
+u/taxquestion2468 avatar
+taxquestion2468
+OP
+•
+10y ago
+What is .NET stack if you don't mind? And huh that's interesting. How challenging did you find it and did you enjoy it? Did you have C++ experience or you just learned it on the job? Pretty cool!
+
+u/csthroaway19420 avatar
+csthroaway19420
+•
+10y ago
+.NET is Microsoft's development platform, I mostly worked with stuff like WPF/Windows forms for desktop programs and ASP.NET for website backends. It didn't exactly do a lot to prepare me for my internship. C++, particularly with low-latency design definitely had a bigger learning curve compared to C# and they had me learn it on the job, but I found it fun & challenging.
+
+u/shopify avatar
+u/shopify
+•
+Promoted
+
+Build your online store and start selling today. No tech skills needed.
+Sign Up
+shopify.com
+Clickable image which will reveal the video player: Build your online store and start selling today. No tech skills needed.
+Collapse video player
+
+0:00
+
+
+
+
+u/QuintinityTheCoder avatar
+QuintinityTheCoder
+•
+10y ago
+I got my first internship as a freshman, making 18CAD/hr. I had great grades and several significant personal projects.
+
+However, I did not meet all the requirements for the job even though I got it. I highly recommend you apply for internships even if you are lacking in some of the required areas.
+
+HackVT
+•
+10y ago
+MOD
+From the other side, expectations from interns and even new hires is that you have a basic understanding of concepts but we still have to teach you ALOT about how to do your job.
+
+At the end of the day, I'd expect most interns, even very junior ones to understand some of the basic/early questions on CTCI and to have a few projects(think homework or end of semester projects) that you worked on to show me. I don't need a full UI with a business plan and funding. If you have that I don't want you interning for me I want to fund you or get you funded ! :)
+
+Honestly an intro to Python class will show me that you can take a text file, search and sort through it, and then give me some output. I can do a quick 5 minute sniff test and have you make a few changes and see what you can do.
+
+And yes I will ask questions that you likely should not be able to answer just to see how you do with failure.
+
+u/massifjb avatar
+massifjb
+•
+10y ago
+Engineering Manager
+I got my first internship after end of my 2nd year. I had probably taken 5 cs classes by end of 2nd year, including the typical data structures, intro / semi adv c++, computer organization and a crash course in use of the command line.
+
+My mom helped me look for job openings lol. It was a job opening on linkedin for a local "technology intern" job at a pretty large company. That company also was at my school career fair so I spoke with them and mentioned my interest in x position in the area. Went through the interview process.
+
+It was basically an IT operations job helping out a relatively small team set up some software, I learned a fair amount but it was incredibly boring. Paid 20 or 25 an hour I can't remember. Never intend to do IT or infrastructure work ever again. Much easier to get a proper software engineering internship the following year.
+
+elsani
+•
+10y ago
+•
+Edited 10y ago
+Software Engineer
+I got my first internship as a sophomore and had no experience. It was at a small startup that was looking for some extra help with a project they had. Towards the end of interviews, it came down to myself and a classmate of mine and we've previously worked together in classes. The manager saw both of our contributions and project on Github and ended up hiring us both.
+
+At the time, I finished intro to programming, data structures I, and discrete math. I knew about classes, objects, and basic algorithms.
+
+I mainly applied to entry level positions. If you're looking to start out, I'd apply there too. After you get an internship, it just gets easier.
+
+
+u/epirts avatar
+epirts
+•
+10y ago
+what kind and how many of projects/contributions did you have on github?
+
+
+elsani
+•
+10y ago
+Software Engineer
+At the time, I put a bunch of basic data structures projects I did in my class on my Github and had one big school project with said classmate. It was an end of the semester project where we recreated Minesweeper. I think looking back on it, we were hired because the project demonstrated we were able to work together as well as demonstrating version control.
+
+u/DarkAgeOutlaw avatar
+DarkAgeOutlaw
+•
+10y ago
+I had taken a total of 2 CS classes.
+
+The only other programming I had done was a small iOS app I put on the App Store. Would have taken a professional a day or two to write.
+
+For some reason they gave me the job over a guy 6 months away from getting his graduate degree.
+
+Started at $22 an hour.
+
+u/Krisp_Technologies avatar
+u/Krisp_Technologies
+•
+Promoted
+
+The audio infra inside Vapi, LiveKit, and Daily is now a standalone SDK
+Learn More
+krisp.ai
+Clickable image which will reveal the video player: The audio infra inside Vapi, LiveKit, and Daily is now a standalone SDK
+Collapse video player
+
+0:00
+
+
+
+
+Milkmanps3
+•
+10y ago
+Hey, im a first yeaR student and I had the Same question as you do. I wasn't sure if companies would want to hire me for an internship being im only in my first year. So i asked the Director of Career Services and he told me I should apply even if im not sure the company will hire me. He then started to personally email me internship opportunities that he came across.
+
+One other thing is that he helped me tailor my non-tech resume into a resume that i could use my previous work experience to transfer over into the field, and show companies i was not only learning in school but pretty much dedicating all of my time to learning new things and trying to get different certifications.
+
+I guess what I'm trying to say it doesn't always matter how "experienced" you are. Some companies are actually looking for first/second year students who dont know much to bring on to teach , and give you the feel of the work-place. Surprisingly google has an opportunity like this for first and second year students. The minimum qualifications are you have to be a first or second year student in a bachelors program majoring or intending to major in computer science, and have taken at least one computer science course by the end of the first semester.
+
+These opportunities are out there and they are golden imo.
+
+You wanted to know when to apply for internships? Now. Its never too early to do so. It shows you have that drive to br successful. If everyone waited u ntill they felt ready nobody would have a job. Start applying today even if your not sure. Good luck.
+
+HackVT
+•
+10y ago
+MOD
+whatever this is supposed to mean? Is this solid?
+
+Ok here is the deal -- with small little startups run by people who have never lead technical teams and likely are not technical they likely looked at comparable companies to grab job specs from. At the end of the day they want someone who will show up and help them move the ball forward. They are going after interns because they have 0$ cash.
+
+Farren246
+•
+10y ago
+•
+Edited 10y ago
+Senior where the tech is not the product
+This isn't a good city for internships and I wasn't able to find my first programming job until 6 months after graduation. I knew what objects were but had barely worked with them (labs and unpaid work placement courses can only go so far). I thought I was trained and ready for the workforce, but in reality I just didn't realise how inadequate someone can be with only a university degree.
+
+I'm in my third year here, and continue to cringe whenever I find an old piece of code from when I first started.
+
+Admittedly, my initial coding projects would have been much better if this company hired senior developers or had any method of training / mentoring new hires. Instead this company hires only fresh grads, gives practically no training / mentorship (well... I do what I can, but I'm overwhelmed by important projects so have little time to truly teach new hires). Generally speaking most people leave once they reach a certain level of competency, which takes 6-24 months.
+
+I'm only still here because buying a house and getting married is stressful enough without also switching jobs, and because my salary has almost doubled in the 3.5 years I've been here. Attrition made it easy to climb the seniority ladder and I'm now the only person who has been around long enough to actually understands our systems.
+
+u/BenniG123 avatar
+BenniG123
+•
+10y ago
+I got my first internship the same semester I switched from Electrical to Computer Engineering. And I had no idea what I was doing, I was pretty good at C from my one programming class but that was it. I was just randomly walking up to companies (not the big ones) and acting enthusiastic about whatever they did.
+
+u/alhof avatar
+alhof
+•
+10y ago
+I had no previous resume experience*, other than Starbucks for 3 years. I was, though, involved in an "accelerator" kind of program that my school offered, where I was embedded in a team as the "tech guy" with a business person and a marketing person. Each team was given a mentor, and ours managed to get the one mentor that was actually very very well connected (headed the de-facto investing department of a very large national bank).
+
+By the end of the semester, our team hadn't really gone anywhere, but I'd showed my critical thinking abilities to our mentor. A few weeks later I reached out to him asking for advice finding an internship, and he connected me with several local companies he was in touch with. I got a well paying internship a week later, have had it for a year now - looks like they'll hire me when I graduate - and I'm meeting with mentor guy for dinner next week.
+
+*Although I hadn't had any resume experience, I was very well versed in a lot of.. the stuff they don't necessarily teach you in academia (at least not in my school's CS dept). Command line, Unix, building a web app, building a RESTful API, different frameworks, etc. I played around a lot on my own, knew how to teach myself and connect different services, and knew how to play all of this kind of general systems information to my advantage. In the end, it was the connection that landed me the opportunity I expect will kickstart my post-college career.
+
+u/Sweet013117 avatar
+Sweet013117
+•
+10y ago
+•
+Edited 10y ago
+Software Engineer
+The summer after my freshman year I got 3 intern offers ($20/hr, $17.50/hr, $13.50/hr) with < 2.0 and only an Intro to Java course and Web l course.
+
+
+u/jjsreddit avatar
+jjsreddit
+•
+10y ago
+I'm guessing you go to a good school lol
+
+
+u/Sweet013117 avatar
+Sweet013117
+•
+10y ago
+Software Engineer
+Not even close, a medium sized school in VA that no one outside of VA knows.
+
+u/taxquestion2468 avatar
+taxquestion2468
+OP
+•
+10y ago
+Where did you find them, what area are you in, and... how??? You have to talk to me man!
+
+
+u/Sweet013117 avatar
+Sweet013117
+•
+10y ago
+Software Engineer
+My dad got the 13.50/hr one for me, the other two I applied to the postings I saw on either LinkedIn or Indeed. They were smaller companies, one was a financial company in Northern VA and other was a defense contractor in the same area. When you have no experience or very little try applying to smaller local companies or defense contractors, then with that experience leverage it for better internships the following summers.
+
+[deleted]
+•
+10y ago
+I got an internship when I was a freshman. I had great grades and I was familiar with artificial intelligent. So, I got into a 15-day internship in Tesla. It was a great learning curve and I learned more in these 15 days than I did in my whole freshman year. It was amazing...
+
+[deleted]
+•
+10y ago
+I am in my last semester of school and just got my first internship at a local startup paying $20/hour. The product owner hired me because he felt that since someone once gave him a chance, that he should do the same for someone in my position with no professional experience.
+
+I have been there for over a month now and just recently pushed code onto the production environment where beta testers and eventual customers will be using the button I implemented multiple times a day. I am now assigned to a specific project and have some control over how it is implemented. Best job on earth for me.
+
+He gave me the chance because he knew I was dedicated to learning and that I was going to try my best. I look forward to going into work every day. I hope they give me an offer in a few weeks when I graduate.
+
+Prior to this, I've been working in a grocery store for 10 years and have no personal projects of interest. I am lucky to know someone personally who introduced me to the company. That someone believed I was worth it and they took his word for it. Imposter syndrome is strong with me, but I feel it fading as I get "nice work" remarks from the other engineers reviewing my code.
+
+The most important classes that really came into play was Programming II where object oriented design was solidified into my head. Software Engineering where team cooperation and communication got us an A. System Design and Implementation when I learned how to look at a project as a personal AND team challenge. Where we re-evaluate our design decisions and organize our project more logically. Where we sit together to discuss relationships in our database, the flow of use cases, business constraints, and user experience.
+
+Communication, cooperation, personal determination, learning from others, learning from your mistakes, communicating technical ideas, and understanding how all aspects of the codebase relate to one another. That is what matters, that was what I learned at school, and that is what I apply every day at my internship.
+
+You gotta be a good coder. But you gotta have more than that.
+
+"You have to want it, and you have to believe you can get it."
+
+Words that I live by now. Thank you, Joe.
+
+u/Fun_Hat avatar
+Fun_Hat
+•
+10y ago
+No experience, had taken three (I only really count two though because one was the same class in a different language) programming classes and a SQL class. I got on with a "big" (joint venture between two tech giants) company that had a small IT department. Nothing Big name like you see on here.
+
+$10/hr is very low. I was getting $16 and was probably the lowest paid among my peers.
+
+u/darexinfinity avatar
+darexinfinity
+•
+10y ago
+Software Engineer
+I had one internship during college. The application process was during the last quarter of my junior year. By this time I had finished all of my lower-level classes and a few upper-level (including Data Structures). My resume had about 4-5 (school) projects on it and a list of what upper level classes I've taken and were currently taking.
+
+I went to a career fair and met a recruiter for the company. I don't remember what we talked about but I doubt it was significant in employing me. I dropped off my resume with them and applied online to every intern position I could find.
+
+Mid-way through the quarter I get an e-mail for a phone interview. The only part of the interview I remember was telling them about a CLI cryptography program (left out the CLI part) that I made for a school assignment (left that out too).
+
+Not long after that I get a call wanting to talk about an offer, no technical interview needed. Good thing because I was nowhere prepared for that atm.
+
+u/Ispilledsomething avatar
+Ispilledsomething
+•
+10y ago
+Site Reliability Engineer
+I got my first internship as a freshman. I had taken one class in Python; I was very inexperienced. I applied to somewhere around 13 places and got an other from one. The place I worked was a government research center. The pay wasn't amazing compared to other tech internships ($5,500 for the summer), but it was a great experience, especially as a freshman.
+
+u/Vi3GameHkr avatar
+Vi3GameHkr
+•
+10y ago
+Software Engineer
+I got an internship after my freshmen year for $15/hr. I did lots of my own programming stuff in high school so my freshmen year was more like "this is how you are ACTUALLY supposed to program" not really an intro. My company hires lots of other freshmen during their 1st semester, and sometimes we get some guys that hardly know much more than how to log in and open up whatever IDE their school has them use.
+
+
+dgreenmachine
+Cake icon
+•
+10y ago
+What company is that? This spring ill have my first programming class and I have a few finished programs in VBA (yea its weird). I dont feel like im super qualified because I will only just learn C++ this spring so id like a few internships that may be easier to get rather than going without one for this summer.
+
+u/okhelloworldlyworld avatar
+okhelloworldlyworld
+•
+10y ago
+0 related work experience. First year student with only my C++ assignments from my first class to show for.
+
+You should definitely apply for that opencast one and the ios dev one. If you get an offer for the ios dev one try to negotiate pay. If the pay holds you back then reject the offer.
+
+Takeway. Apply for all of these. Don't hold yourself back because of uncertainty of unqualification. Use Trumps presidency as a main example.
+
+u/blaw023 avatar
+blaw023
+•
+10y ago
+Software Developer
+I literally took 2 computer courses at my community college by the time i got my first internship. I was fortunate enough to know somebody who worked at the biggest insurance company in my state. I subsequently got a shot at a CS intern and nailed it.
+
+For internships, companies don't usually focus on your experience but more on your character and determination
+
+chooseausername23456
+•
+10y ago
+Software Engineer
+I was a junior when I got a job working for a company as a software engineering intern making $24.75/hour. I had only participated in an REU (Research Experience for Undergraduates) before that, but I knew someone who worked at the company. I don't say that to discount myself by any means. They threw some code at me that was incomplete, missing files, and just flat-out crappy, and in the one year that I've been here I have completely restructured it to a well-functioning program.
+
+All that to say, sometimes it's about what you know, and sometimes it's about who you know. If you know the right people and how to interview, you could pretty much get a job anywhere doing anything. Just make sure you live up to your standards!
+
+u/chu248 avatar
+chu248
+•
+10y ago
+Software Engineer
+Year and a half left, one moderately sized project under my belt but it happened to give new experience in exactly what this company was looking for. My connections there lead to my next three jobs. I'd rather be lucky than good any day.
+
+Cody6781
+•
+10y ago
+xAxxG Engineer
+I had taken my intro to C and intro to Java class and completed calc 1. I also had some decent background with my highschool clubs. Got my first internship which was 12$/hr and was quickly promoted to 15$/hr
+
+u/SikhGamer avatar
+SikhGamer
+•
+10y ago
+Before I did my placement (UKer here) I took two programming related modules.
+
+Object Orientated Programming with Java
+
+Event Driven Programming with C#
+
+My teacher for Java was amazing and really lit a fire under me. My teacher for C#, not so much.
+
+The reason that is important is because my new found obsession with Java, led to me doing a lot of self learning home. Eventually, I wrote my first proper programme that still has a user base of about 30 users.
+
+About two years later I applied for the placement (C# .NET stack ironically). 90 minute technical interview with a senior dev at the company. 90 minute personal interview (the senior dev who interviewed me, MD, and lead programmer).
+
+Here is what I think got me the role:-
+
+The ability to admit that I didn't know something - the first time I ever wrote an interface was during my technical interview. I just straight up admitted it. But I immediately followed up with "Am I allowed to use Google?" and then tried to figure out.
+
+I talk out aloud when I am trying to solve problems - this does two things; first it lets me catch any silly mistakes, second it shows the interviewer that I have problem solving skills.
+
+Personality - contrary to the programmer stereotype, I am very laid back and a chatterbox. I enjoy a good conversation and I am completely willing to admit that I don't know something but I always express an interest in learning it.
+
+Enthusiasm - I genuinely enjoy solving problems, and that shows during the interview. Every interview (for a job I really wanted) I have had the interviewer always comments on my grin and enthusiasm. That can't be faked.
+
+Research - I like to know who I am working for and where they stand in the industry. I spent a good week or so before the interview researching the crap out of the company. So when it came to me asking them questions, they weren't generic. They were very tailored to the company. That shows interest in the company and the general domain.
+
+It is hard to judge my own technical skill, because I am still growing and every day I learn something new. But during my interview they mentioned the results of the online test I took. The score that I got, they said they typical see from senior devs.
+
+If you are on the fence about applying for an internship. Don't be. Apply. The interviewing experience will alone be worth it. And of course, you miss 100% of the shots you don't take.
+
+I nearly didn't apply for my placement, I was just going to skip it. But I am so glad I did. I learnt a fuck ton there.
+
+u/WantAFriday avatar
+WantAFriday
+•
+10y ago
+I got accepted to my internship position during my 2nd year(Java, Data Structures, simple stuff). I had struck out at the career fair but my head of my CS department sent out an email stating a local branch of one of the big boys was looking for interns. My resume isn't great, no prior experience, no life changing experiences, but I did have solid grades. By corporate policy the company couldn't take in interns with below a 3.8, which limited the pools. I had some very solid interviews that were mostly over the basics. The department that ended up hiring me actually had a series of logic puzzles, a couple of which I answered before he finished asking the question due to knowing them beforehand.
+
+So I got my internship at a big name company with a 3.9 GPA and no prior experience after 2 years of classes. $30 an hour and I'm expected to be hired into a comfortable position after I graduate this spring.
+
+u/Xymfhd avatar
+Xymfhd
+•
+10y ago
+•
+Edited 10y ago
+Beginning of sophomore year, 2 ish programming classes. Big 4 internship, good money. No prior programming experience, no side projects.
+
+I think I could get it because i really wanted an internship even before entering college so I paid a lot of attention to career events and tried to figure out what companies want during freshman year. (Only found out they want people who can work out algorithms on whiteboard really well)
+
+I wanted internship desperately while others are still enjoying their freshman year because I desperately wanted to stay in US after graduation and job market is not friendly to international students. Later on I found out studying hard is nothing compared to dating hard and getting married to US citizen. :/
+
+project3way
+•
+10y ago
+Software Engineer
+Current Computer Engineering major at UofL, our school makes Co-Op mandatory and has a good relationship with a lot of companies around the area. We start co op after we're done with our Calc 3 class, at that point the only programming we've done is usually Intro to Programming ( C & C++ basics ), Java ( exposure to another language and familiarization with OOP), and Data Structures. I will say that I am NOT worth what they pay us for Co Op (18-25 an hour on average). Because my knowledge is very limited, and I'm not the only one that feels that way. But everyone that comes out of that first internship feel like they've learned more in those two months than the entire 3 classes prior combined. I think the real world exposure helps develop the skills learned but underutilized in those classes.
+
+u/istockporno avatar
+istockporno
+•
+10y ago
+Software Engineer
+My first internship that involved actual technical work was summer after junior year. By then I'd had core CS and EE classes and had worked briefly as a sysadmin, and had a couple of not-so-technical internships.
+
+I didn't realize it then but I had my s*** together better than half the experienced devs on that team :)
+
+
+[deleted]
+•
+10y ago
+u/LazyConi avatar
+LazyConi
+•
+10y ago
+I know someone who got an internship from Google before taking the data structure courses. But she was pretty smart so I think that helped :)
+
+TuckerD
+•
+10y ago
+Software Engineer
+I was 0 experienced and through 1 year of CS classes.
+
+u/silenceofthegraham avatar
+silenceofthegraham
+•
+10y ago
+This is late but I got an CS internship offer for >$6k/month only having finished 2 CS courses and only taking one this semester(double majoring in mechanical engineering so am focusing on that). It's definitely possible.
+
+
+u/taxquestion2468 avatar
+taxquestion2468
+OP
+•
+10y ago
+In slow, ELI5 specific detail... how? Where did you find it/What experience did they require?
+
+
+u/silenceofthegraham avatar
+silenceofthegraham
+•
+10y ago
+•
+Edited 10y ago
+Honestly, I just threw in my resume and was offered an online coding quiz. Passed all the questions, was offered another more difficult coding interview/quiz (this is still online). Passed that in less than half the allotted time, it was just on using various data structures. And then I got my offer.
+
+Getting offered the first coding quiz was definitely aided by my school's status (top 10 school in CS) but from then on it was all about coding ability. No "experience" required, seriously, I had no relevant experiences on my resume. It's pretty shocking going from mechanical engineering because I've gotten grilled about my design experience during those interviews but CS interviews were way more lax.
+
+My advice is to go for the bigger companies if you don't have a lot of experience (I know it seems counterintuitive) because they generally can take a bigger risk in hiring you whereas the smaller companies want to be sure you're good at coding before they hire you.
+
+Edit: I just want to make a note that this was from applying on the company's website.
+
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+u/taxquestion2468 avatar
+taxquestion2468
+OP
+•
+10y ago
+Awesome will do. Appreciate it. And it seems in my area the people hiring on Indeed,LinkedIn, Craigslist... are the big companies. Or big companies in general. Its not like a company I haven't heard of before.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+u/alinroc avatar
+alinroc
+•
+10y ago
+Database Admin
+With those quotes I thought you were referring to "experienced" in the Jimi Hendrix sense.
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+
+FoxMcWeezer
+•
+10y ago
+Software Engineer @ Big 4
+I had 20 years industry experience. Because that's what it takes to get hired as an intern these days.

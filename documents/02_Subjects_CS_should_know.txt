@@ -1,0 +1,588 @@
+<!--
+
+# TITLE: CS subjects that an undergraduate must know
+
+# URL: https://softwareengineering.stackexchange.com/questions/32533/cs-subjects-that-an-undergraduate-must-know
+
+-->
+
+Closed 11 years ago.
+
+Questions about what language, technology, or project one should take up next are off topic on Programmers, as they can only attract subjective opinions for answers. There are too many individual factors behind the question to create answers that will have lasting value. You may be able to get help in The Whiteboard, our chat room.
+Questions seeking career or education advice are off topic here. They are only meaningful to the asker and do not generate lasting value for the broader community. Furthermore, in most cases, any answer is going to be a subjective opinion that may not take into account all the nuances of a (your) particular circumstance.
+In college, I was never interested in theory. I never read it. No matter how much I tried, I was unable to read stuff and not know what was actually happening practically. Like for example, in my course on automata theory, my professor told me everything possibly related to the mathematical aspect of it, but not even once did he mention where it would be used practically. This is just an example.
+
+I managed to pass my college and interned with a company also, where I did a project and thankfully they didn't bother about my grades, as they were above average.
+
+Now, I am interested in knowing what subjects should a CS student must absolutely and positively be aware of? Subjects that can have relevance in the industry. This is because I have some free time on my hands and it would help me better to have a good understanding of them.
+
+What are your suggestions? Like for one, algorithms is one subject.
+
+learningeducation
+Share
+Improve this question
+Follow
+edited Feb 8, 2012 at 23:10
+community wiki
+2 revs, 2 users 100%
+Karl
+3
+Regular expressions are based on automata theory, and it will help you if you ever have to parse anything. I've done and learned things in school that proved irrelevant to the jobs I've had, but that says at least as much about what I've worked on as what I've learned. Nothing I learned would be useless in the field under all circumstances. –
+David Thornley
+CommentedDec 30, 2010 at 16:23
+2
+I hate working with your type ... jk (sort of). If I were you, I would first take time to review things that you ought to know from school - that way you would not look like an idiot at your next interview. After that I would learn a reasonable amount of data structures and algorithms which look like they can be used in a real world. You need to figure out where you want to be. If a game developer, then you probably need linear algebra, 3d graphics, computational geometry. In general you need to review data str, alg, database, os and compiler stuff at a minimum and keep learning. –
+Job
+CommentedDec 30, 2010 at 23:17
+It's difficult to name a particular application for automata theory in the same way that it's difficult to name a particular application for arithmetic. An exaggeration, maybe, but not by that much. State diagrams are often useful, and manipulating them in code is useful for a number of purposes. Decision trees (minimised into digraphs) are a relatively recent example for me, and I've even needed to use state models (in canonical form) as keys into containers. If you can't see applications within applications, think in terms of adding a layer of indirection - code generation. –
+user8709
+CommentedJan 3, 2011 at 20:19
+1
+You're getting lots of great CS answers below, but I think by limiting your question like that you're missing a couple of the most useful things I've seen in the 15 years since I got my BSCS, what has differentiated the folks that have done well in the industry: small group communication & teamwork skills. Silly as it seems, head over to the speech/language/theatre department and take a class like "small group communications" or "team/group leadership/management". Even if you don't plan to do management, the skills you pick up there will make you a better engineer and team member. –
+cabbey
+CommentedJan 5, 2011 at 6:01
+Add a comment
+18 Answers
+Sorted by:
+
+Highest score (default)
+41
+
++500
+Believe it or not, one of the things that turned out to be of critical importance to me in later life was Compiler Construction. Not the modern namby-pamby version using Lex and Yacc, thats for dummies.
+
+REAL compiler construction where you write your own symbol scanner and parser from the ground up.
+
+This is something I thought I would never, ever, use again. But on the last 20 years that course has proven its weight in gold 4 times over. Ever command processor I've had to write, every incoming-message-scanner, every user dispatcher, every script interpreter, has used the principles from that course. Do it that way and life is sweet, clear and simple. AND I even gave all the info to a colleague who had not done it - he had to actually write a compiler for an abstract machine. Which I might add has gone on to be very commercially successful.
+
+If I had to go up and thank a university course lecturer in any one subject, this would be it. Without that I would have got by but my solutions would have been much much uglier.
+
+(And before somebody jumps up and says "well you could have used lex and yacc..." the answer is, perhaps - it depends a lot on the system. In some cases the programming languages were not C (eg PL/M and Ada), in some cases no readily available Lex or Yacc were available for the platform. Knowing basics means a solution is at hand instead of wringing hands trying to figure out how to bend some tool to fit the problem.)
+
+Share
+Improve this answer
+Follow
+answered Dec 30, 2010 at 11:25
+community wiki
+quickly_now
+6
++1 Compilers was one of my favourite courses at uni, and is always useful. I've rarely used lex/yacc/bison, the fundamentals are of much more concrete use. –
+Orbling
+CommentedJan 1, 2011 at 14:57
+I totally agree although for a different reason. Getting to know how to write the code generator - even though I used Lex and Yacc - was my first and best immersion in object oriented programming. –
+Peter Turner
+CommentedJan 4, 2011 at 14:24
+You can (and should ALSO know how to) write the code generator in plain C, or some other non-OO language. Then its a lesson in writing very large pieces of procedural code, and breaking up the parser / scanner / code generation into sensible and intelligable phases. –
+quickly_now
+CommentedJan 4, 2011 at 22:27
++1 Compilers incorporates so many patterns and principles that it will allow you to see design and code in a completely different light after having done it. –
+Andrew T Finnell
+CommentedJan 5, 2011 at 17:11
+2
+"This is something I thought I would never, ever, use again." If I had a dollar for every time I said that to myself when I was younger.... –
+Nick Spreitzer
+CommentedJan 8, 2011 at 5:35
+Show 3 more comments
+37
+
+Data Structures/Algorithms especially Graphs. The amount of real world situations in which I've managed to use graph-related algorithms has been a surprise to me. Focus on knowing the characteristics of when a data structure or algorithm is appropriate. Being able to see a problem and know to use dynamic programming/greedy algorithm for example is important and can save you a lot of time.
+
+Working knowledge of computational complexity. You don't have to know off the top of your head what the lower-bound of radix sort is but knowing how to figure out what worst-case running time of something you write is important, especially for performance critical projects.
+
+O.S. concepts. Memory management, Schedulers, etc. Every developer really should have a solid understanding of operating systems given that the code you write is constantly interacting with it.
+
+NetSec. I have encountered very few developers who have a solid understanding of basic security concerns with development (buffer overflows, xss, SQLI, etc). This is really a must if you want to be successful in industry. It is great if you can write the next big thing but you won't have many users for long if you don't secure their data.
+
+Programming paradigms. Know the characteristics of and differences between OO/Functional/Procedural programming. One of the best undergrad classes I ever had was writing simple 20 instruction interpreters for fortan, scheme, prolog, etc in the languages themselves. Just the exposure itself can really help you understand the fundamental concepts of software development.
+
+Share
+Improve this answer
+Follow
+answered Dec 30, 2010 at 23:21
+community wiki
+Kurtis
+1
++1 Entire list is pretty much required, (4) in particular is ever so important in the modern distributed era. –
+Orbling
+CommentedJan 1, 2011 at 15:03
+1
++1 on Data Structures/Graphs. The number of programmers I know who doesn't know how to use correctly a Hashtable or why an Linked List instead a simple array in some cases surprises me everyday. –
+Machado
+CommentedJan 3, 2011 at 20:32
+1
++1 for programming paradigms. A good understanding of contrasts between different types of languages helps a lot. –
+apoorv020
+CommentedJan 5, 2011 at 16:03
+Add a comment
+21
+
+Meeting the graduation requirements is not necessarily sufficient for being the best computer scientist you can be. For a typical college curriculum, here are the top ten things you should be sure to learn:
+
+The basics of economics - An introductory course covering topics like complements and substitutes is vital for working in the greater economy, or just simply understanding it. While the concept of a Giffen Good won’t necessarily help you, knowing about externalities will. It might also help you appreciate that more situations are win-win than you might have realized.
+
+How to write a proof - All computer science majors should know how to write a proof. And discrete math, while a part of a well balanced breakfast, doesn’t count. [Induction is just one proof technique, and you can get by without actually knowing much about proofs.] A course in algebra or real analysis is necessary to really write proofs. And by algebra I mean group theory or abstract algebra, not the course you took in high school. For the full benefit, take algebra and real analysis in the same term.
+
+Why is proof writing essential? Because it’s programming! Think about when you first learned how to program: if a task required an if and a loop, you might not have had any intuition on where to put them in relation to each other. But now the same task would feel completely natural. Writing a proof is very similar. There is a set of tricks that you learn, and once you learn them things look quite different.
+
+How to write - Written communication skills are essential, whether you’ll work in the industry or academia. It’s best if you can find a mechanics course, and not a writing course that is effectively about a different topic. That is, many schools will try to make the writing courses more relevant or interesting by making it be about a special topic. Try to go for the “boring” version of the course.
+
+Probability and statistics - There are some things that you’ll only pick up properly by taking a course. Together with the CS major requirements (which should give you discrete math, single variable and multiple variable calculus, and linear algebra) and algebra and/or real analysis, picking up statistics will probably give you a minor in math. Learning statistics can help you work with other scientists on their projects.
+
+The current hot topic - In previous decades, it might have been databases, or object-oriented programming. Today it might be web programming or service-oriented architecture. Whatever the current fad is, be sure to take a course in it. If only to see what the fad is about.
+
+The halting problem - Most problems cannot be solved by machines. This is a fairly deep idea that our culture has absorbed so well that it no longer sounds shocking. The same goes with radio, Goedel, and the atomic bomb; it wasn’t until postmodern art and the cold war that we could once again cope with these concepts. However, taking a course in computability theory can re-sensitize you to this pretty amazing proof.
+
+Pure functional programming - You most likely won’t go into pure functional programming, unless you do research in it or work for a select few companies, but knowing it will help you be a better programmer. The reason is that you will learn many new forms of abstraction, and concepts like Church numbers and continuations and monads and, yes, recursion, and these tools can be applied to your next Java program too.
+
+P and NP - OK, this one is already on your critical path, but pay attention anyway. You want to be sure you can correct someone when they incorrectly call NP “non-polynomial.” As if!
+
+The topics from the course you’re sure to hate - This could be a CS course you find too-low-level, too-theoretical, or a non-CS course you find too-objectionable, too-hard, or too-boring. If a course like this seems to be an issue for you, and you find yourself explaining to others why you’re so glad you don’t have to take so-and-so, it should tell you that you’ll learn a lot by taking the course! Perhaps you won’t learn the materials of the course, but you’ll learn about your own limits and perhaps more about the justifications you make to yourself. [Hint: They are usually weak.]
+
+The non-CS course you’re sure to love - In the end, you should have some fun. This is the course you’ll probably get the least out of, but take it anyway. Do it once. If you happen to love many courses, then good for you, but be sure it doesn’t get in the way of covering the rest of the courses on this list.
+
+My approach here has been practical, based on courses you can actually take. And I’ve focused on learning objectives that are likely to be learned. Note: This answer was adapted from a blog posting of mine on Ten Things Every Computer Science Major Should Learn.
+
+Share
+Improve this answer
+Follow
+edited Jan 8, 2011 at 1:04
+community wiki
+2 revs
+Macneil
+An explanation for the downvote would be helpful. Perhaps I can change my answer, and then you can change your mind. –
+Macneil
+CommentedJan 1, 2011 at 21:23
+Professor, I wouldn't down vote your answer but there is one thing I'll take issue with . Proof Writing: To this day I still cannot write a Discrete proof unless you asked me to proof a number is odd or even. I fail to see the connection between this and the industry. Maybe I'm missing the "Problem Solving Aspect?". I could never wrap my brain around Mathematical Induction or the Pumping Lemma. I don't think its slowing me down. –
+Nayrb
+CommentedJan 2, 2011 at 2:36
+1
+Writing a proof is like writing a program. Learning how to prove that a\*0=0, for example, is kind of like the FizzBuzz of mathematics (well, perhaps it's a little harder). It seems intimidating at first, but soon you pick up the little tricks, just as you did when learning to program. Proofs can have different structures that can help you think recursively and structurally. As I said, a discrete mathematics course doesn't cut it to learn real proofs. You need group theory or real analysis for that. –
+Macneil
+CommentedJan 2, 2011 at 5:12
+Whilst knowledge of compliments is certainly useful, I believe a knowledge of complements is more relevant to economics. –
+ijw
+CommentedJan 4, 2011 at 14:59
+1
+@ijw: Regarding economics for CS students, Joel has a good discussion worth reading: joelonsoftware.com/articles/CollegeAdvice.html –
+Macneil
+CommentedJan 15, 2011 at 3:00
+Add a comment
+8
+
+After talking to a couple of company representatives and friends that had many interviews:
+
+Databases
+OOP
+Algorithms
+Data Structures
+tend to be "musts" for new hires (or as they said, "highly recommended" courses).
+
+Other courses that may be useful are computer security, assembly, and machine architecture. Many of my professors have recommended to me a compiler course too. Also, if you have time I would highly recommend math courses like graph theory, discrete mathematics, and combinatorics. You learn a lot of reasoning skills in those classes that most CS courses gloss over, but end up being very useful when writing very complex programs.
+
+Hope that helps!
+
+Share
+Improve this answer
+Follow
+edited Dec 30, 2010 at 9:28
+community wiki
+2 revs
+K-RAN
+1
+Would agree with OOP and data structures. –
+apoorv020
+CommentedDec 30, 2010 at 11:17
+5
+Basic data structures... sooooooooooo important. MORE important, I think, than OOP. You need to be able to think about how to store and organise information. And if on embedded system the in-memory layout of your data structures is life-or-death stuff. –
+quickly_now
+CommentedDec 30, 2010 at 11:26
+4
++1 for the math classes. They also help you learn to keep track of large problems/systems. –
+Michael K
+CommentedDec 30, 2010 at 13:45
+1
+Networking is a good one to do also. –
+Benbob
+CommentedJan 1, 2011 at 16:01
+1
+OOP ? You can program in Haskell or C without OOP... I'll give you it's widely used, but I don't think it's a fundamental. Exposure to various paradigms, on the other hand, seem quite useful. –
+Matthieu M.
+CommentedJan 4, 2011 at 20:04
+Add a comment
+6
+
+It largely depends on what you plan do with the degree. It appears that most CS majors end up as software engineers of some kind. With that in mind, I am really not sure why more people don't just major in software engineering. I suspect that there are not enough software engineering programs available especially at public institutions.
+
+I come from an embedded back ground. Every single person that I work with either had a EE degree or CE degree and that is partially because the when the "old guys" when to college there weren't that many CE programs available. So, it is pretty obvious that if you want to work in the embedded field that a hardware background is desirable.
+
+Regardless of the field you want to work in however, I believe that every programmer should take a course in assemble programing. You might never user it, but it will teach exactly what is happening at the processor level during a function call, how interrupts are handled, how memory is structured or how the different addressing modes are used. I believe all this things will make you a better programmer.
+
+Also, though it may not be apparent so some these are all important topics when considering Data Structures and Algorithms for a specific platform.
+
+Share
+Improve this answer
+Follow
+answered Dec 30, 2010 at 19:39
+community wiki
+Pemdas
++1 because a computer science degree gives you experience with a wide array of subjects/technologies. Just be sure to pay attention to the software design course. –
+Mr. Ant
+CommentedDec 30, 2010 at 21:42
++1 For assembly, always wise to truly understand what is happening at the bottom of the stack. Would be nice if everyone knew hardware too, but for many it would be a step too far. –
+Orbling
+CommentedJan 1, 2011 at 14:59
+Add a comment
+5
+
+There are 2 ways to answer your question. Let me attempt both. The first way is to look at things from a potential job market standpoint, coding skills etc. So here's my list:
+
+Data Structure
+Algorithm Analysis
+Object Oriented Programming
+Either a specific course in C++ or Java
+Operating Systems
+User Interface Design
+Parallel Programming
+The second way is to look at things from a bit abstract perspective, and who knows, may be a bit philosophical too. The list that follows may not have the hottest skills the job market demands, but I am pretty sure by the time you come out of these courses you'd have a deeper appreciation of the art of developing software.
+
+Finite Language and Automata Theory
+Compiler Construction
+Graph Theory
+Artificial Intelligence
+Share
+Improve this answer
+Follow
+answered Jan 1, 2011 at 15:56
+community wiki
+Fanatic23
+Don't just list a set of courses that in your opinion you think are essential, provide reasons and experiences you had that dictated your list. –
+user8
+CommentedJan 1, 2011 at 20:21
+Add a comment
+2
+
+I would also add Software Engineering or Design Practices to the list, though their content is usually picked up by students in the industry.
+
+Also, in my opinion(not backed up by much experience though) companies don't really want most of the theoretical things taught in courses like databases etc., they want people to understand and be able to use these things.
+
+EDIT: Due to the downvote, I feel like explaining my answer. I am a final year computer science student, and my experience is based on my internship and job interviews with leading companies in the field. In my experience, people are rarely required to use complicated algorithms or code very complicated data structures in interviews or in jobs.
+
+More useful if you can create and use databases, use source control, know how to debug properly, know how to use design patterns etc. However, as I said, these skills are typically picked up in the industry and not covered in courses. Software Engineering/Design Practices typically involves building a mid-sized project, very useful for learning all theses skills.
+
+Share
+Improve this answer
+Follow
+edited Dec 30, 2010 at 11:35
+community wiki
+3 revs
+apoorv020
+1
+Please provide more detail about your experiences and why someone ought to take those courses. –
+user8
+CommentedDec 30, 2010 at 10:59
+@Mark : Can you explain rationale behind downvote? –
+apoorv020
+CommentedDec 30, 2010 at 11:15
+1
+@apoorv020 without explaining why you're recommending Software Engineering or Design Practices, your answer isn't useful. Your edit still doesn't explain why you're recommending them. –
+user8
+CommentedDec 30, 2010 at 11:22
+@apoorv020 the only redeeming value for taking Software Engineering or Design Practices is that you typically build a mid-sized (whatever that means) project? What did you personally learn from taking those courses? –
+user8
+CommentedDec 30, 2010 at 11:38
+They are good to know, but these aren't CS subjects. –
+Thomas Owens
+♦
+CommentedDec 30, 2010 at 11:38
+Show 4 more comments
+2
+
+Things that I learned in college that I use every day:
+
+Object-oriented design methodology
+Design patterns
+Regular expressions
+Basic algorithms and analysis
+Data structures
+I wish I took a database course. (I have picked up enough to get by since I graduated, but I wish I knew more.) I also wish version control was taught -- it's ubiquitous, extremely useful, and was completely ignored in my school's curriculum.
+
+I had to take several math courses. I haven't used calculus since I graduated. I wish I took a statistics course. (Again, I've picked up enough to get by since graduating, but I wish I knew more.)
+
+Beyond the CS department, take a writing course. Good written communication skills are essential for success.
+
+Share
+Improve this answer
+Follow
+answered Dec 30, 2010 at 22:59
+community wiki
+pwc
++1 Surprised that databases were not compulsory in your course, usually considered an essential component. –
+Orbling
+CommentedJan 1, 2011 at 15:10
+It was. I got out of it on a technicality and regret it. –
+pwc
+CommentedJan 1, 2011 at 17:31
+1
+@Orbling: Often small departments (as opposed to those at big state schools) simply don't have enough lecturers to require every major topic. At my school, for example, databases was an elective. –
+Macneil
+CommentedJan 1, 2011 at 17:49
+@Macneil: On my course, the primary databases course was a prerequisite (covering all basics: ER modelling, normal forms, SQL (not just basic SQL, compound/nested, etc), index placement, etc), the latter, more complex, database courses were electives (I think there were three in total). I never elected to take them, as I figured it was stuff I could absorb independently more easily than other courses I would miss out on. Think I took advanced OR instead. –
+Orbling
+CommentedJan 1, 2011 at 18:31
+@pwc: I bet, do you remember why you got out of it, as opposed to how? –
+Orbling
+CommentedJan 1, 2011 at 18:31
+Show 6 more comments
+2
+
+There are many important courses, depending on which direction you're planning to go. However, assuming you can program at all, the most important course has got to be:
+
+Data structures and algorithms
+
+Virtually everything in computing comes back to handling data using algorithms. Pay particular attention to arrays and hashtables, as they're by far the most useful data structures in common use, but lists and trees and graphs (well, lists are restricted types of trees, and trees are restricted types of graphs) are going to be important as well. Moreover, understanding algorithms is vital to producing code that isn't terrible. (Otherwise you'll do things that are just terrible, like using an O(n3) algorithm where an O(n logn) one will do.) If your CS degree does not have a mandatory DS+A course on it, it's not CS. Or software engineering. Or even just programming.
+
+Aside from that, the course that I've found most useful over the years in multiple fields has been:
+
+Concurrency
+
+There are many aspects to concurrency, but I'd expect an understanding of the difference between shared-memory and message-passing. I'd also want there to be strong coverage of locking strategies (mutexes, semaphores, etc.) and transactions.
+
+This is vital for understanding parallelization, of course, but it's also critical for anything distributed (e.g., writing a service that's exposed to the internet, even if it is single-threaded since the clients will be asynchronous anyway). I understand that it is also useful for writing games (which are typically multithreaded) and working with embedded devices.
+
+Aside from that, I think that it's in most undergraduates' best interest for them to be exposed to as many different ideas as possible. Lots of programming languages and paradigms. Lots of different areas of application. A reasonable amount of math (again, because it's useful so often) and also some exposure to human-factors and psychology (because any software that interacts with users is dealing with people). After all, you never know exactly what you're going to be doing in the future, so planning for flexibility is a great life strategy.
+
+Share
+Improve this answer
+Follow
+answered Jan 4, 2011 at 22:22
+community wiki
+Donal Fellows
+Add a comment
+1
+
+When I was at college there were quite a few topics that I couldn't see a use for in my real life and sometimes that intuition has been proved right ( Formal Methods really are only practical for trivial problems in most cases ) and other times it has been entirely wrong ( Big-O notation is very useful ) so I guess on the whole my younger self was part right.
+
+If you want to prepare yourself for the real world, in addition to the stuff @K-Ran recommends above, I suggest reading Code Complete and using that as a basis for deeper research into any topics you find difficult or don't feel you have sufficiently covered.
+
+Share
+Improve this answer
+Follow
+answered Dec 30, 2010 at 10:26
+community wiki
+glenatron
+I've sometimes found formal methods useful, although obviously only on small components. I thought of Dijkstra et al. as saying something like "If you're a perfect mathematician, you can be a good programmer." –
+David Thornley
+CommentedDec 30, 2010 at 16:20
+I suspect if you're working on code that lives will depend on you basically have to have a solid grasp of this stuff. But for the work I've done it has never been necessary. If I did need it now, I would have to go back and relearn it from scratch... –
+glenatron
+CommentedDec 30, 2010 at 17:19
+Things like Z are only really used for mission-critical software in organisations where, as you say, lives are at risk. However, I think learning them instils a far greater awareness of code correctness and gives depth to full back on in specification of all kinds. Sometimes what you learn is not for it's own sake, but helps to sure up what stands above. –
+Orbling
+CommentedJan 1, 2011 at 15:01
+Think of it as making bigger building blocks that are solid. If you've proved your components correct (and tested them to find the stupid mistakes you've made in design and proof), you have fewer things to worry about when writing and debugging. –
+David Thornley
+CommentedJan 4, 2011 at 22:47
+Add a comment
+1
+
+I think you should study the following :
+
+Operating System :- Even though you may not not need it to work as a programmer but it is worth to know how an operating system works and it is expected from a CS grad. Any good book can help.
+
+OOP :- This is bread and butter. A must. Books if you want to ask: Your first book should be :- head first OOAD, then you can go for Grady Booch and Ivar Jacobson's book
+
+Data Structures and Algorithms :- Very important to develop the logical thinking and mindset .
+
+To me this much is enough. It's never too late. :)
+
+Share
+Improve this answer
+Follow
+answered Dec 30, 2010 at 13:31
+community wiki
+Abhi
+Add a comment
+1
+
+As someone who interviews candidates regularly for programming jobs, and someone who after being in the industry for 12+ years feels reasonably accomplished, I would suggest the following
+
+Database Design & SQL: It is amazing how many programmers do not know simple SQL, and those with good SQL skills are invaluable. To be able to design a good database may not be useful in a company that has a set database structure, for start-ups and companies going through change, it is a MUST!
+Design Patterns. They will simply help you make better decisions about good design
+OOP: This is usually a pre-req for most courses, but it will help.
+Algorithms: Because so few people know what recursion is, let alone understand when it could save them a lot of complex coding
+Data Structures: Most modern languages deal with this stuff for you, but understanding them is the key to good design.
+Then, some extra curricular work, read:
+
+Certification type books. They often teach you the beneath the covers type of syntax and operators. It is far more important to KNOW why you are doing something, rather than 'because it works', which is so commonplace.
+Share
+Improve this answer
+Follow
+answered Jan 4, 2011 at 13:45
+community wiki
+Codemwnci
+Add a comment
+1
+
+IT'S DEPENDS, there isn't a one good answer for this question.
+
+Programmer is a general world to identify a someone who writes computer software.
+
+Now, out there there is software of all kinds. For example, using wikipedia as a source of generalization we can meet 3 great generalization:
+
+system programming
+programming software
+application software
+In the first field system programming develop device drivers, operating system, servers, so for example you can follow an operating system course.
+
+but what about programming software ? here as wikipedia wrote you can code compilers, debuggers, interpreters, linkers, text editors, so, a course in automate theory, language theory, language and compilers can be useful.
+
+Not we can talk about application software of any kind:
+
+- video games : algebra, physics, object oriented courses ?
+- mathematical software : mathematical courses ?
+- image editing: mathematical, physics, algorithm courses ?
+- industrial automation: mathematical, physics, algorithm, robotic courses ?
+- medical software: biology, medical, what else course ?
+- a lot of stuff here : a lot of courses here .
+
+As you can see there is a lot of course you can follow and will become useful for your work.
+
+In my experience, I'm a system software engineering and application software in the security (you want follow a security course?) field, starting from a little very experience in programming i am getting more interesting in algorithms and distributed system and again i feel uncomfortable in the simplicity of the general purpose application i wrote (sniffer, network intrusion detection system, protocol dissector and detector, etc).
+
+As you have sourly learned in theoretical computer science! have you fllow this courses ? :P
+
+You have learned for example that all computer language can be fitted in a set of computable mathematical function and for example if your experience get my same path, soon you be uncomfortable in this little set of calculus and like me you can start to see how developing software is not so engaging and amazing because the same DESIGN PATTERN come back again an again (have you follow design pattern courses?) and for example you can start to get more interest in WHY and HOW language can be translated in mathematical function and starting to learn that computer language is not so very complex! you can soon for example be more surprised about person and psychology, and you can get more interest about it and become a good project manager! have you follow the courses about software life-cycle ?
+
+So now, what is the MUST-HAVE course in your CS career ?
+
+I suggest to learn as much as you can learn in all field, specially in theory field, because in common work field you can feel soon really bored about the little complexity around you, and becoming a full time worker you have really less time to learn how things really work and much more time to see how people with strong theoretical knowledge have projected things to work and give to you the possibility to code to get food at home.
+
+there is a wrong sense of reality in computer science. computer scientist for example sometimes is really far away from software developer.
+
+take a look at the wikipedia explanation.
+
+have fun with life :)
+
+my 2 cents.
+
+sorry for my really bad English.
+
+Share
+Improve this answer
+Follow
+answered Jan 4, 2011 at 14:09
+community wiki
+boos
+Add a comment
+1
+
+Hands down the number one thing CS students should be fluent in is English.
+
+Without an understanding of both spoken and written English you will forever be at a disadvantage.
+
+Just look at the myriad of questions that come in on the Stack sites. Way too many of them are hard to decipher. Some people use a mix of l33t, texting (not sure the correct term). Others make a statement and simply append a question mark while missing important little thinks like verbs or adjectives.
+
+If you can't communicate then you won't be able to make yourself understood much less understand what others are saying.
+
+Everything else is just details. If you can communicate, are of at least average intelligence and can understand what you read then you too can have a successful career programming.
+
+Share
+Improve this answer
+Follow
+answered Jan 4, 2011 at 22:25
+community wiki
+ChrisLively
+Add a comment
+1
+
+I come at this from a slightly different perspective in that I didn't graduate in CS, I graduated in Electronic Engineering (with a minor in business).
+
+Based on that I think a list of things you must understand is relatively short as I (and many non-other CS graduates) survive happily without knowing a thing about compiler design or the like.
+
+What I would say I've picked up that I do find useful:
+
+RDBMS design - RDBMSs sit behind most systems and sites and you should understand at least the basics of what is going on (I learned this on the job).
+Basic UI Design - all the best programmers I've worked with could produce a usable application that wasn't ugly as hell. Except one but he's the exception that proves the rule.
+Some basic programming - and I mean basic. I learned some C (for image processing and embedded systems), some Assembly Language (which I'd forgotten within weeks of completing the course) and some Pascal (a basic computing course was standard for all engineers). When interviewing I'm stunned how few CS graduates can really programme in any way commercial organisations would consider useful so I don't expect much, but I do expect them to know the basics.
+Logic - I learned it through digital electronics, mathematicians through theory, CS grads through programming but however you learn it, you should have a good grasp of it as so much comes down to it.
+Communication skills - I did a couple of courses at university outside my actual degree, presentation skills and assertiveness. Lots of common sense but it never hurts to be told sensible things a few times.
+The basics of business and accounting. Some programmers act like it doesn't matter but to my mind it matters to anyone who works in a company - this is how the game works and it's going to control your life so why wouldn't you want to know at least the rudiments of how and why things happen?
+And if you get the chance to learn about project management at all then that really wouldn't hurt but that's taught pretty badly at university in many instances and it is something you'll learn a bit about on the job just by working on projects.
+
+Share
+Improve this answer
+Follow
+answered Jan 5, 2011 at 17:41
+community wiki
+Jon Hopkins
+Add a comment
+0
+
+I'd add some basic Human Resources / Psychology courses to the list as well.
+
+This might seem like an odd addition, but part of work professionally is learning how to sell yourself and negotiate. Walking into your first 'real' interview without a solid knowledge of the HR-drone's motivations is a recipe for disaster and likely to end with the student getting screwed into a low-balled salary.
+
+Know your enemy so that you can protect yourself.
+
+Share
+Improve this answer
+Follow
+answered Jan 5, 2011 at 14:29
+community wiki
+Peter Bernier
+Add a comment
+-1
+
+1st Year:
+
+Basic OOP in a high level language
+Data Structures
+2nd Year:
+
+Compiler, you build a simple one form scratch
+Concurrency
+3rd Year:
+
+Algorithm
+Operating System, you add functionalities and enhancements to a simple one
+Formal language
+4th Year:
+
+Networking
+Distributed System
+User Interface
+Advanced Compiler
+Advanced Operating System
+Artificial Intelligence
+Computer Graphics
+Those courses should provide plenty of theory and coding practice.
+
+Share
+Improve this answer
+Follow
+answered Jan 5, 2011 at 17:12
+community wiki
+Thierry Lam
+Add a comment
+-2
+
+It's strange nobody has mentioned Computer Architecture.
+
+Share
+Improve this answer
+Follow
+answered Jan 5, 2011 at 14:32
+community wiki
+Sorantis
+I think computer architecture is important to know if you want to understand the impact of memory caches, page faults etc. –
+apoorv020
+CommentedJan 5, 2011 at 16:05
+Add a comment
+Start asking to get answers
+
+Find the answer to your question by asking.
+
+Explore related questions
+
+learningeducation
+See similar questions with these tags.

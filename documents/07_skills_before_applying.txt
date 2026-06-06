@@ -1,0 +1,107 @@
+<!--
+
+# TITLE: What Computer Science Students Should Know Before Their First Internship
+
+# URL: https://medium.com/@felixthedev/what-computer-science-students-should-know-before-their-first-internship-2e65293eaf36
+
+-->
+
+What Computer Science Students Should Know Before Their First Internship
+Prof. Cabrera
+Prof. Cabrera
+
+Follow
+5 min read
+·
+May 12, 2019
+13
+
+
+
+
+Press enter or click to view image in full size
+
+The day is coming …
+
+When you are going to attend your first internship as a Computer Science student, you have worked a lot for that day. Getting good grades and preparing a competitive application to land the position at that internship.
+
+You passed the phase, on how to get the internship. Now, what’s next? Well, I remember the day I attended my first internship as a Computer Science undergraduate student in college. It was one of the best experiences in my career development as an undergraduate student. I learned a lot, got exposure to the day-day operations of being a professional and I met great professionals that helped me a lot along the way.
+
+Before the internship, I had an idea of what to expect. However, there were some things I did not know. So, today I am going to share some tips of things you should know if you are a Computer Science undergraduate who is going to attend their first internship.
+
+These insights are based on my experience attending my first internship back in the day. I hope this article helps someone out there.
+
+Network
+Time goes by quickly when you are participating in an internship. It may be a summer internship for two months or even a semester. However, before you know it, the internship will be over. Moreover, as I have learned through the years, life can change a lot through time. Some of the great people you met at the internship, for instance, if you were working at a company, you might lose touch. Life happens; people change jobs and move countries.
+
+Time goes by quickly, connect with people you meet
+
+Consequently, what I did is to add these excellent professionals on LinkedIn. This way, we could keep in touch, and it has been great for me. By using a platform like LinkedIn, I have been able to keep people updated on how my career has developed through the years after graduating from my bachelor’s degree in Computer Science.
+
+Also, you might never know, there might be a job opening at the company you interned for, which you can accept after graduating. So, by networking, you can be informed if that happens at some point in time.
+
+Learn As Much As You Can
+Like I outlined in the first tip, time flies by when you participate in an internship. Another lesson I gained from the internship experience is to learn as much as I could. As internships progress, you might work in different projects where you can learn new technologies, programming languages and develop new skills in other areas that will benefit your career in a myriad of ways. So, I recommend every Computer Science student who is going to attend their first internship to seize the opportunities to learn they receive during the internship.
+
+Learning and applying as much as possible is key
+
+Also, I suggest applying the skills you learn as much as you can. Something I realized from my experience, is that internships provide an opportunity to apply what you have learned during your Computer Science degree, as use the new technical skills you may develop as a result of participating in that internship. In other words, I believe that internships are a great compliment to the student’s learning process because it provides a chance for the student to apply the things he/she has learned in the classroom as well as gain new knowledge.
+
+So, learn as much as you can, as well as apply as much as you can.
+
+Embrace the challenges
+There might be a time when you are assigned to complete a task which you don’t feel very confident about. No worries, that is normal. For instance, you might be asked to work with a programming language you have never worked with, or develop an application with a framework or technology you have never used. What I learned from experiences like these, also working with Computer Science students, is to embrace the challenge and try to learn the most from it. Furthermore, when it comes to learning new programming languages, another thing that I have learned is to keep an open mind and try your hardest to understand the programming language’s syntax.
+
+Get Prof. Cabrera’s stories in your inbox
+Join Medium for free to get updates from this writer.
+
+Enter your email
+Subscribe
+
+Remember me for faster sign in
+
+An internship is an excellent opportunity to grow your technical skills, as well as to apply them to real-world projects. So, my recommendation is to keep an open mind and try your hardest. If you need help, there are great online resources that can help you along the way, such as Stack Overflow and searching for online learning resources such as articles, or even YouTube videos that explain the use of the programming language or technology you may learn during the internship.
+
+Keep an open mind, ask questions if you need to and use the resources you have
+
+Other resources you can use to help you learn new technologies include books, do a quick online search on the resources available for learning the programming language or technology you are using during the internship, they may help you along the way.
+
+There you have it, some insights I learned through my experience as a Computer Science undergraduate student when participating in internships.
+
+If you happy and you know it, clap your hands :)
+
+As always, don’t forget to follow me and click on the applause button, so you don’t miss content that can help you in some way in along your coding journey.
+
+Also, I know if you like this kind of content so I can keep writing more of these types of articles to help you on your journey learning how to code.
+
+If this article helped you in some way, please share it with a friend.
+
+It might help them too.
+
+Comment down below which was the tip that helped you the most. I would like to know.
+
+I hope this helps!
+
+If you would like a video version of this content, then check out this video.
+
+Feel free to subscribe to my YouTube channel, Felix The Dev for more videos and content like this one to help you in your journey as a Computer Science student. :)
+
+If you liked this article, I think you might be interested in these articles as well:
+
+How To Get An Internship As A Computer Science Student
+Internships are excellent opportunities for Computer Science students to gain work experience. These opportunities…
+medium.com
+
+LinkedIn Tips For Computer Science Students
+When I was a Computer Science undergrad student, I did not understand the importance of crafting an excellent LinkedIn…
+www.linkedin.com
+
+Computer Science Students: What Should I Add To My Resume?
+When I was about to graduate from my bachelor’s degree in Computer Science, I spent time a lot of time crafting my…
+medium.com
+
+Disclaimer: Results may vary. These tips and advice are based on my experience and opinion as a former undergraduate Computer Science student. Also as a tutor, teacher, and professional software developer. Everyone is different, so, the advice shared in this article may or may not work for you.
+
+Photo by Christina Morillo from Pexels
+
+Originally published at https://yadielcabrera.com.
