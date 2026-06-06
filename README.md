@@ -185,7 +185,7 @@ All five questions were run end-to-end (`retrieve.py` → `generate.py`, top-k =
 **Overall retrieval quality:** Relevant (5/5) — every question retrieved on-topic chunks from the expected source documents, all distances within 0.29–0.47.
 **Response accuracy:** Accurate (4/5), Partially accurate (1/5 — Q1).
 
-_Note on the strong results:_ this is a small (12-doc), focused corpus, and the evaluation questions were written to match topics it covers, so high relevance is expected rather than surprising. Grounding was verified, not assumed — e.g. Q2's "CLI cryptography program" and Q1's "LeetCode/competitive programming" were confirmed to appear in the cited chunks. The honest weak spots are Q1's tangential framing (below) and Q4 naming fewer practice platforms than expected.
+Note on the strong results: this is a small (12-doc), focused corpus, and the evaluation questions were written to match topics it covers, so high relevance is expected rather than surprising. Grounding was verified, not assumed.
 
 ---
 
@@ -205,7 +205,7 @@ _Note on the strong results:_ this is a small (12-doc), focused corpus, and the 
 **Question that failed:**
 Q1 — "What practical software engineering skill do many graduates say college does not teach well?"
 
-**What the system returned:** A grounded but partially off-target answer. It _led_ with "LeetCode and competitive programming" as the main thing college doesn't teach, then listed source control, debugging, design patterns, databases, communication, and project management. It never surfaced several items central to the expected answer like code reviews, working in large/legacy codebases, and deployment despite those themes existing elsewhere in the corpus.
+**What the system returned:** A grounded but partially off-target answer. It led with "LeetCode and competitive programming" as the main thing college doesn't teach, then listed source control, debugging, design patterns, databases, communication, and project management. It never surfaced several items central to the expected answer like code reviews, working in large/legacy codebases, and deployment despite those themes existing elsewhere in the corpus.
 
 **Root cause (tied to a specific pipeline stage):** This is a retrieval ranking issue, not a generation or grounding failure since every claim was verified to come from a cited chunk. With the question phrased broadly and the corpus using overlapping vocabulary across topics (exactly the "off-topic retrieval from shared terminology" risk noted in planning.md), the top-5 cut favored a similar chunk over more on-point ones.
 
@@ -218,7 +218,11 @@ Q1 — "What practical software engineering skill do many graduates say college 
 
 **One way the spec helped you during implementation:**
 
+> Writing out the chunking strategy in planning.md before I coded anything honestly saved me alot of time. Because I already wrote down my chunk size and overlap and the reason why, I didnt have to stop and figure it out while coding, I could just go straight into building the chunk function and plug in the numbers I already decided on. The same thing happened with my tools, since I had already listed sentence-transformers and ChromaDB and Groq in the plan, I knew exactly what I was wiring together at each stage and I didnt waste time second guessing which library to use. It basically made the implementation feel like I was just following my own instructions instead of making everything up as I went.
+
 **One way your implementation diverged from the spec, and why:**
+
+> My biggest divergence was the chunk size. In planning.md I originally said 500 tokens with 75 token overlap, but once I actually started setting up the embedding model I found out that all-MiniLM-L6-v2 only looks at the first 256 tokens and just throws away the rest. That meant if I kept 500 token chunks, more than half of each chunk wouldnt even get embedded which would hurt my retrieval later. So I dropped it down to 250 tokens with 50 overlap so the whole chunk actually fits in the model, and I went back and updated planning.md to explain why. I didnt expect to change my plan but testing the model showed me the original numbers didnt make sense for the tool I picked.
 
 ---
 
@@ -235,12 +239,12 @@ Q1 — "What practical software engineering skill do many graduates say college 
 
 **Instance 1**
 
-- _What I gave the AI:_
-- _What it produced:_
-- _What I changed or overrode:_
+- _What I gave the AI:_ I gave it my Chunking Strategy section from planning.md along with my document info and asked it to write the ingestion and chunking code that reads my .txt files and splits them into chunks while keeping the source metadata.
+- _What it produced:_ It gave me a script that read the raw .txt files, did some cleaning, and chunked everything at 500 tokens with 75 overlap like my original plan said, and it saved the chunks to a json file with the filename and chunk index.
+- _What I changed or overrode:_ I overrode the chunk size to 250 with 50 overlap after I realized my embedding model only takes 256 tokens, so the old numbers wouldve gotten cut off. I also told it to split the loading and cleaning and chunking into separate scripts instead of one big file because it was easier for me to follow and rerun each stage on its own.
 
 **Instance 2**
 
-- _What I gave the AI:_
-- _What it produced:_
-- _What I changed or overrode:_
+- _What I gave the AI:_ I gave it a couple of my messiest documents (the Reddit and Medium and Indeed ones) and asked it to clean out the webpage junk like usernames, upvote buttons, ads and footers but keep the actual advice text.
+- _What it produced:_ It made a cleaning script that stripped html and a bunch of the obvious clutter lines, and it printed out one full document so I could check it.
+- _What I changed or overrode:_ When I read the printed document I still saw leftover stuff like a codecademy ad, a medium subscribe box in the middle of an article, and stack exchange "closed question" boilerplate. So I had it keep adding more targeted rules and rerun until those were gone. I also caught that one of my source titles was wrong because the original file had a copy paste mistake in the header, so I had it fix that title too so my citations wouldnt be wrong later.
