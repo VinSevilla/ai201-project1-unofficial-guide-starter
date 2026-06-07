@@ -1,5 +1,7 @@
 # The Unofficial Guide — Project 1
 
+🎥 **Project walkthrough (Loom):** https://www.loom.com/share/97a26706fd8d4b828428a38829a50b90
+
 > **How to use this template:**
 > Complete each section _after_ you've built and tested the corresponding part of your system.
 > Do not write placeholder text — if a section isn't done yet, leave it blank and come back.
@@ -239,12 +241,16 @@ Q1 — "What practical software engineering skill do many graduates say college 
 
 **Instance 1**
 
-- _What I gave the AI:_ I gave it my Chunking Strategy section from planning.md along with my document info and asked it to write the ingestion and chunking code that reads my .txt files and splits them into chunks while keeping the source metadata.
-- _What it produced:_ It gave me a script that read the raw .txt files, did some cleaning, and chunked everything at 500 tokens with 75 overlap like my original plan said, and it saved the chunks to a json file with the filename and chunk index.
-- _What I changed or overrode:_ I overrode the chunk size to 250 with 50 overlap after I realized my embedding model only takes 256 tokens, so the old numbers wouldve gotten cut off. I also told it to split the loading and cleaning and chunking into separate scripts instead of one big file because it was easier for me to follow and rerun each stage on its own.
+- What I gave the AI: I gave it my Chunking Strategy section from planning.md along with my document info and asked it to write the ingestion and chunking code that reads my .txt files and splits them into chunks while keeping the source metadata.
+
+- What it produced: It gave me a script that read the raw .txt files, did some cleaning, and chunked everything at 500 tokens with 75 overlap like my original plan said, and it saved the chunks to a json file with the filename and chunk index.
+
+-  What I changed or overrode: I overrode the chunk size to 250 with 50 overlap after I realized my embedding model only takes 256 tokens, so the old numbers wouldve gotten cut off. I also told it to split the loading and cleaning and chunking into separate scripts instead of one big file because it was easier for me to follow and rerun each stage on its own.
 
 **Instance 2**
 
-- _What I gave the AI:_ I gave it a couple of my messiest documents (the Reddit and Medium and Indeed ones) and asked it to clean out the webpage junk like usernames, upvote buttons, ads and footers but keep the actual advice text.
-- _What it produced:_ It made a cleaning script that stripped html and a bunch of the obvious clutter lines, and it printed out one full document so I could check it.
-- _What I changed or overrode:_ When I read the printed document I still saw leftover stuff like a codecademy ad, a medium subscribe box in the middle of an article, and stack exchange "closed question" boilerplate. So I had it keep adding more targeted rules and rerun until those were gone. I also caught that one of my source titles was wrong because the original file had a copy paste mistake in the header, so I had it fix that title too so my citations wouldnt be wrong later.
+- _What I gave the AI: I gave it a couple of my messiest documents (the Reddit and Medium and Indeed ones) and asked it to clean out the webpage junk like usernames, upvote buttons, ads and footers but keep the actual advice text.
+
+- What it produced:_ It made a cleaning script that stripped html and a bunch of the obvious clutter lines, and it printed out one full document so I could check it.
+
+- What I changed or overrode: When I read the printed document I still saw leftover stuff like a codecademy ad, a medium subscribe box in the middle of an article, and stack exchange "closed question" boilerplate. So I had it keep adding more targeted rules and rerun until those were gone. I also caught that one of my source titles was wrong because the original file had a copy paste mistake in the header, so I had it fix that title too so my citations wouldnt be wrong later.
